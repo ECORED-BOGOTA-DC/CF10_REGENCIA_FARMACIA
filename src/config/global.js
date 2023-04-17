@@ -1,19 +1,12 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    componenteFormativo:
+      'Normatividad del proceso de recepción de productos farmacéuticos',
+    descripcionCurso:
+      'En este componente formativo se abordan los conocimientos de la competencia recibir mercancía según los procedimientos técnicos, referentes a la normatividad legal vigente del del proceso general de recepción de productos farmacéuticos, regido por la Resolución 1403 del 2007, con el fin que los aprendices se enfoquen en identificar la importancia de dicho proceso en la cadena de abastecimiento dentro del servicio farmacéutico.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    imagenesDecorativasBanner: [],
   },
   menuPrincipal: {
     menu: [
@@ -32,30 +25,133 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Reglamentación del servicio farmacéutico',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Normativa de calidad del proceso de recepción',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Conceptos básicos',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Métodos de verificación, especificaciones y criterios',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Productos farmacéuticos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Tipos de productos farmacéuticos',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Sustancias peligrosas en el servicio farmacéutico',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Productos fraudulentos y alterados',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Mercancía',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Tipos de mercancía',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Consolidación y desconsolidación',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Cargas de mercancía',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Tipos de carga',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Tipos de símbolos',
+            hash: 't_5_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Embalajes',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema7',
+        icono: 'far fa-file-alt',
+        numero: '7',
+        titulo: 'Precintos o sellos de seguridad',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema8',
+        icono: 'far fa-file-alt',
+        numero: '8',
+        titulo: 'Códigos de barra',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema9',
+        icono: 'far fa-file-alt',
+        numero: '9',
+        titulo: 'Pesaje',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema10',
+        icono: 'far fa-file-alt',
+        numero: '10',
+        titulo:
+          'Manual de Gestión de Procesos y procedimientos de los Servicios Farmacéuticos',
         desarrolloContenidos: true,
       },
     ],

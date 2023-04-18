@@ -36,23 +36,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.conatiner-offset-1
-  position: relative
-  width: 100%
-  background-color: #CDEDFC
-  padding: 2rem
-  border-radius: 20px
-  border-bottom-right-radius: 0
-  margin-right: -20%
-  margin-left: auto
-  z-index: 2
-  box-shadow: 0 0 5px 3px #00000010
-  @media (max-width: 1200px)
-    margin-right: auto
-    margin-bottom: -3rem
-  @media (max-width: 768px)
-    margin: 0
-    margin-bottom: .5rem
-    border-radius: 20px
-</style>
+<style lang="sass"></style>

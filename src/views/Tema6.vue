@@ -4,9 +4,54 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3
-      h1 Titulo de primer nivel
+        span 6
+      h1 Mercancía
 
+    .d-flex.flex-wrap.mb-5
+      img.mx-auto.col-lg-3.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema6/img-1.jpg' style="max-width: 295px")
+      .col-lg-9.ps-lg-3
+        p.mb-5 Se refiere al material necesario utilizado en el proceso de cubrir, proteger y perseverar las características y calidad de los productos farmacéuticos que serán transportados.
+          br
+          |El embalaje permite:
+        .tarjeta.p-4.mb-5(style="background-color: #F7F6FE; overflow: hidden;")
+          ul.lista-ul--color
+            li.d-flex.mb-4
+              img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px")
+              p.mb-0.ps-2 Máxima trazabilidad logística y control de inventario.
+            li.d-flex.mb-4
+              img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px")
+              p.mb-0.ps-2 Control de calidad.
+            li.d-flex.mb-4
+              img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px")
+              p.mb-0.ps-2 Almacenar y transportar los productos farmacéuticos que requieran condiciones especiales, como la refrigeración.
+            li.d-flex.mb-4
+              img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px")
+              p.mb-0.ps-2 Prioridad con las mercancías de alto costo.
+            li.d-flex.mb-4
+              img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px")
+              p.mb-0.ps-2 Vehículos, contenedores, embalaje y etiquetado especiales, para el transporte de productos farmacéuticos, que garanticen la conservación de la temperatura de la carga.
+        p.mb-5 El proceso de embalar requiere además tener presente las características generales y específicas de los productos, como:
+
+        ul.lista-ul--color.lista-ul--separador
+          li
+            p.mb-0 <b>Estado físico:</b> sólido, líquido, gaseoso.
+          li
+            p.mb-0 <b>Características:</b> peligroso o alterable por temperatura.
+          li
+            p.mb-0 <b>Material que lo constituye:</b> medicamento, dispositivo médico, etc.
+          li
+            p.mb-0 <b>Identificación:</b> etiqueta.
+          li
+            p.mb-0 <b>Características del medio de transporte:</b> limitaciones de espacio y el peso del vehículo de transporte.
+          li
+            p.mb-0 <b>Costos:</b> fabricación, manipulación, etc.
+    
+    .d-flex.flex-wrap
+      img.mx-auto.col-lg-4.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema6/img-2.jpg' style="max-width: 400px")
+      .col-lg-8.ps-lg-4.d-flex.flex-wrap.align-content-center
+        p.mb-4.w-100 Los embalajes pueden ser de uso interno o externo; en cuanto a material pueden ser de madera, plástico, cartón, papel y metal. En el material complementario se encuentra un enlace donde se amplía la información de cada uno de estos materiales, su uso, ventajas y características-
+        .cajon.cajon-edit.color-secundario.p-4.w-100
+          p.mb-0 El embalaje que se utiliza para transportar los productos farmacéuticos debe resistir las condiciones del almacenamiento y el traslado, la compresión o apilamiento y la vibración.  
 </template>
 
 <script>

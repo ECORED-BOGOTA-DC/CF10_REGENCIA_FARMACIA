@@ -162,12 +162,12 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -197,32 +197,155 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Embalajes',
+      referencia:
+        'Prieto, A. (2020). <em>Tipos de carga, envase, embalaje, etiquetado-logística interna</em> [Video]. YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=b3xWXgVw5cI&list=TLPQMTUwNzIwMjFftm1Z5QToSQ&index=2&ab_channel=Andr%C3%A9sPrieto',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Embalajes',
+      referencia: 'Acavir. (2021). <em>Carga.</em>',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=b3xWXgVw5cI&list=TLPQMTUwNzIwMjFftm1Z5QToSQ&index=1&ab_channel=Andr%C3%A9sPrieto',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Carcinógeno',
+      significado:
+        'sustancia o agente que produce cáncer o favorece su aparición.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Comburente',
+      significado:
+        'sustancia que provoca o favorece la combustión de otras sustancias.',
+    },
+    {
+      termino: 'Compra',
+      significado:
+        'conjunto de productos que se adquieren para el consumo habitual.',
+    },
+    {
+      termino: 'Corrosivo',
+      significado:
+        'sustancia que tiene capacidad de destruir progresivamente una cosa penetrando de afuera hacia adentro; especialmente destruye ciertos agentes como metales u objetos de metal.',
+    },
+    {
+      termino: 'Documentación',
+      significado:
+        'conjunto de documentos, generalmente oficiales, con que se prueba o acredita algo.',
+    },
+    {
+      termino: 'Factura',
+      significado:
+        'cuenta en la que se detallan las mercancías compradas o los servicios recibidos, junto con su cantidad y su importe, y que se entrega a quien debe pagarla.',
+    },
+    {
+      termino: 'Genotoxicidad',
+      significado:
+        'capacidad relativa de un agente de ocasionar daño en el material genético.',
+    },
+    {
+      termino: 'Infeccioso',
+      significado: 'que es causa de infección.',
+    },
+    {
+      termino: 'Inflamable',
+      significado:
+        'el adjetivo inflamable se usa para calificar a aquello que puede encenderse de manera sencilla y que no tarda en desprender llamas.',
+    },
+    {
+      termino: 'Inspección',
+      significado: 'examinar atentamente una cosa o un lugar.',
+    },
+    {
+      termino: 'Negociación',
+      significado:
+        'realizar operaciones comerciales con la intención de obtener un beneficio.',
+    },
+    {
+      termino: 'Orden de compra',
+      significado:
+        'es un documento que un comprador entrega a un vendedor para solicitar ciertas mercaderías.',
+    },
+    {
+      termino: 'Organoléptico',
+      significado:
+        'propiedad de un cuerpo que se percibe con los sentidos (untuosidad, aspereza, sabor, brillo, etc.), a diferencia de las propiedades químicas, microscópicas, etc.',
+    },
+    {
+      termino: 'Registro Sanitario',
+      significado:
+        'es el documento expedido por la autoridad sanitaria competente, mediante el cual se autoriza a una persona natural o jurídica para fabricar, envasar, e Importar un alimento con destino al consumo humano.',
+    },
+    {
+      termino: 'Teratógeno',
+      significado:
+        'producto o medicamento que administrado a una mujer o un animal, en estado de gestación, puede ocasionar malformaciones en el feto.',
+    },
+    {
+      termino: 'Tóxico',
+      significado:
+        'sustancia que es venenosa o que puede causar trastornos o la muerte, a consecuencia de las lesiones debidas a un efecto químico.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'serie de procedimientos que permiten seguir el proceso de evolución de un producto en cada una de sus etapas.',
+    },
+    {
+      termino: 'Vademécum',
+      significado:
+        'libro o manual de poco volumen y fácil de consultar que contiene las nociones elementales de una ciencia o técnica.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Airpharm. (2020). <em>¿Qué es la consolidación de carga y cómo se realiza?</em>',
+      link:
+        'https://www.airpharmlogistics.com/que-es-la-consolidacion-de-carga-y-como-se-realiza/',
+    },
+    {
+      referencia:
+        'Capitalcolombia.com. (s.f.). <em>¿Qué es el código de barras?</em>',
+      link:
+        'https://www.capitalcolombia.com/articulo/informacion_que_es_codigo_de_barras',
+    },
+    {
+      referencia:
+        'Resolución número 1403 de 2007. [Ministerio de Protección Social]. Por la cual se determina el modelo de gestión del servicio farmacéutico, se adopta el manual de condiciones esenciales y procedimientos de dicho servicio y se dictan otras disposiciones. 2007.',
       link: '',
+    },
+    {
+      referencia:
+        'Real Decreto Legislativo 1/2015. [Ministerio de Sanidad, Servicios Sociales e Igualdad]. Por el que se aprueba el texto refundido de la Ley de garantías y uso racional de los medicamentos y productos sanitarios. 24 de julio 2015.',
+      link: 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-8343#ddunica',
+    },
+    {
+      referencia:
+        'Sánchez y Arroyo. (2007). ¿Consultamos la ficha técnica de los medicamentos? Boletín Farmacoterapéutico de Castilla la Mancha. Vol. VIII, N 5.',
+      link:
+        'https://sanidad.castillalamancha.es/sites/sescam.castillalamancha.es/files/documentos/farmacia/viii_05_utilidadfichatecnica.pdf',
+    },
+    {
+      referencia:
+        'Semana.com. (2014). 10 beneficios del código de barras. Sesión Dinero.',
+      link:
+        'https://www.semana.com/empresas/articulo/para-que-sirve-codigo-barras/202025/',
+    },
+    {
+      referencia: 'Significados.com. (03 de marzo del 2018). Qué es producto.',
+      link: 'https://www.significados.com/producto/',
+    },
+    {
+      referencia:
+        'UNAB (s.f.). Unidad 4. Recepción y almacenamiento de medicamentos y dispositivos médicos.',
+      link:
+        'http://unab.edupol.com.co/pluginfile.php/7207/mod_resource/content/1/UNIDAD_4%20Recepci%C3%B3n%20y%20almacenamiento%20de%20medicamentos%20y%20dispositivos%20m%C3%A9dicos.pdf',
     },
   ],
   creditos: [

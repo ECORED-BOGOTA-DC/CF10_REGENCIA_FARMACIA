@@ -12,8 +12,8 @@
     .tarjeta.p-4.p-md-5(style="background-color: #F1FBFC")
       .col-lg-10.mx-auto
         .titulo-sexto.color-acento-botones
-          h5.mb-0 Figura 1
-          p.mb-0 Resolución 1403 de 2007
+          h5.mb-0.text-small Figura 1
+          p.mb-0.text-small Resolución 1403 de 2007
         img.mx-auto(src="@/assets/curso/temas/tema1/img-1.svg" style="max-width: 677px")
 </template>
 

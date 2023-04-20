@@ -114,30 +114,11 @@
         .tarjeta(style="background-color: white; overflow: hidden;")
           figure
             img.col-xl-10.mx-auto(src='@/assets/curso/temas/tema1/img-4.jpg' style="max-width: 820px")
-            figcaption Leyenda de la imagen
-        .tarjeta(style="background-color: white; overflow: hidden;")
-          figure
-            img.col-xl-10.mx-auto(src='@/assets/curso/temas/tema1/img-4.jpg' style="max-width: 820px")
-            figcaption Leyenda de la imagen
-        .tarjeta(style="background-color: white; overflow: hidden;")
-          figure
-            img.col-xl-10.mx-auto(src='@/assets/curso/temas/tema1/img-4.jpg' style="max-width: 820px")
-            figcaption Leyenda de la imagen
-    
-    .tarjeta.p-4.p-lg-5.mb-5(style="background-color: #F9FCFF")
-      SlyderA(tipo="b")
+            figcaption Orden de compra
         .tarjeta(style="background-color: white; overflow: hidden;")
           figure
             img.col-xl-10.mx-auto(src='@/assets/curso/temas/tema1/img-5.jpg' style="max-width: 438px")
-            figcaption Leyenda de la imagen
-        .tarjeta(style="background-color: white; overflow: hidden;")
-          figure
-            img.col-xl-10.mx-auto(src='@/assets/curso/temas/tema1/img-5.jpg' style="max-width: 438px")
-            figcaption Leyenda de la imagen
-        .tarjeta(style="background-color: white; overflow: hidden;")
-          figure
-            img.col-xl-10.mx-auto(src='@/assets/curso/temas/tema1/img-5.jpg' style="max-width: 438px")
-            figcaption Leyenda de la imagen
+            figcaption Factura
     
     p.fw-bold Recepción técnica
 

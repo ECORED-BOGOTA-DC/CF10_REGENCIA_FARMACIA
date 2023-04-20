@@ -156,12 +156,12 @@ export default {
       },
     ],
     subMenu: [
-      {
-        icono: 'fas fa-sitemap',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   icono: 'fas fa-sitemap',
+      //   titulo: 'Síntesis',
+      //   nombreRuta: 'sintesis',
+      //   desarrolloContenidos: true,
+      // },
       // {
       //   nombreRuta: 'actividad',
       //   icono: 'far fa-question-circle',
@@ -378,12 +378,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Adriana Marcela Suarez Eljure ',
           cargo: 'Diseñador web',
           centro: 'Nombre centro de formación',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Edinson Castañeda Oviedo',
           cargo: 'Desarrollador Fullstack',
           centro: 'Nombre centro de formación',
         },

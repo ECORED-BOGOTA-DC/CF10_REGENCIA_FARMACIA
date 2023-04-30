@@ -9,14 +9,14 @@
           i.fas.fa-info
       h1 Introducción
 
-    p.mb-4(data-aos="fade-left") Partiendo de la definición del Decreto 780 del 2016 al Servicio Farmacéutico, como:
+    p.mb-4(data-aos="fade-left") Partiendo de la definición del Decreto 780 del 2016 se puede definir el Servicio Farmacéutico como:
 
     .basic-container.mb-5
       .col-12.col-md-8.col-xl-4.d-flex.align-items-center(data-aos="fade-right")
         .conatiner-offset-1.bloque-texto-b
           .bloque-texto-b__texto.justify-content-center.d-flex.mb-3
             i.fas.fa-quote-right
-          p.mb-0.w-100 “el servicio de atención en salud, responsable de las actividades, procedimientos e intervenciones de carácter técnico, científico y administrativo, relacionados con los medicamentos y los dispositivos médicos utilizados en la promoción de la salud y la prevención, diagnóstico, tratamiento y rehabilitación de la enfermedad, con el fin de contribuir en forma armónica e integral al mejoramiento de la calidad de vida individual y colectiva”.
+          p.mb-0.w-100 “El servicio de atención en salud, responsable de las actividades, procedimientos e intervenciones de carácter técnico, científico y administrativo, relacionados con los medicamentos y los dispositivos médicos utilizados en la promoción de la salud y la prevención, diagnóstico, tratamiento y rehabilitación de la enfermedad, con el fin de contribuir en forma armónica e integral al mejoramiento de la calidad de vida individual y colectiva”.
       img.col-xl-8.my-auto.ms-auto(src="@/assets/curso/temas/img-1.jpg" style="max-width: 820px")
     
     p.mb-5(data-aos="fade-right") Se hace necesario contar con procesos que garanticen la calidad de estos medicamentos y dispositivos médicos y, así mismo, brinden tranquilidad al momento de su dispensación a los usuarios. 

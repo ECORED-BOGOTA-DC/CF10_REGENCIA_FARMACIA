@@ -14,7 +14,11 @@
           .bloque-texto-b__texto
             i.fas.fa-quote-left
             p.mb-0(data-aos="fade-left") “Es una identificación única de carácter numérico, representada por una combinación de líneas que permite reconocer rápidamente un artículo de forma única, global y no ambigua, en un punto de la cadena logística, y así poder realizar inventario o consultar sus características asociadas”
-            i.fas.fa-quote-right
+              br
+              br
+            .d-flex.justify-content-end.align-items-center
+              p.fw-bold.mb-0.ms.auto (Semana, 2014).
+              i.fas.fa-quote-right
         p.mb-5(data-aos="fade-left") Son usados para identificar los productos durante el almacenamiento y la distribución, además como medio de control de errores al registrar ventas y como método optimo de control de inventarios. 
           br
           |El código de barras aporta los siguientes beneficios:
@@ -45,7 +49,7 @@
     p.mb-5(data-aos="fade-right") En Colombia, el Instituto Colombiano de Codificación y Automatización Comercial (IAC) es la entidad encargada de otorgar el código de barras de los productos, aunque también existen otros como el EAN que es el Europeo, como ejemplo se puede ver la figura 3.
       br
       br
-      |Existen dos códigos de barra, uno de 13 cifras que es el más común y otro de 8 cifras que se utiliza cuando el espacio para la impresión es muy corto. Estos se leen de la siguiente manera:
+      |Existen dos códigos de barras, uno de 13 cifras que es el más común y otro de 8 cifras que se utiliza cuando el espacio para la impresión es muy corto. Estos se leen de la siguiente manera:
     
     .tarjeta.p-4.mb-5(style="background-color: #F7F6FE; overflow: hidden;")
       ul.lista-ul--color.mb-0
@@ -65,7 +69,7 @@
     .tarjeta.p-4(style="background-color: #F1FBFC; overflow: hidden;")
       .tarjeta(style="background-color: #F1FBFC;")
         .titulo-sexto.color-acento-botones.mb-5(data-aos="fade-right")
-          h5.mb-0.text-small Figura 4
+          h5.mb-0.text-small Figura 3
           p.mb-0.text-small Cómo se lee un código de barras
       img.mx-auto.mb-auto(src='@/assets/curso/temas/tema8/img-2.svg' style="max-width: 540px" data-aos="fade-left")
 </template>

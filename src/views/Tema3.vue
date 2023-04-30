@@ -10,10 +10,10 @@
     .basic-container.col-lg-10.mx-auto.mb-5.mb-lg-0
       img.col-lg-8(src='@/assets/curso/temas/tema3/img-1.jpg' style="max-width: 714px")
       .col-lg-4.d-flex.align-items-center
-        .conatiner-offset-2.bloque-texto-b
+        .conatiner-offset-2.bloque-texto-b.px-xl-4
           .bloque-texto-b__texto.justify-content-center.d-flex.mb-3
             i.fas.fa-quote-right
-          p.mb-0.w-100(data-aos="fade-left") La palabra producto se deriva del latín “productus” y tiene diferentes significados según el área en el cual se emplee. Los productos son todas aquellas cosas, objetos u artefactos fabricados en industrias y empresas, mediante un proceso, para el consumo o uso de las personas. El producto está identificado con un nombre que puede ser reconocido por cualquier individuo.
+          p.mb-3.w-100(data-aos="fade-left") La palabra producto se deriva del latín <em>productus</em> y tiene diferentes significados según el área en la cual se emplee. Los productos son todas aquellas cosas, objetos u artefactos fabricados en industrias y empresas, mediante un proceso, para el consumo o uso de las personas. El producto está identificado con un nombre que puede ser reconocido por cualquier individuo.
           p.fw-bold.text-end(data-aos="fade-right") (Significados.com, 2018)
           p.mb-0.text-small(data-aos="fade-right") Para este caso se llamarán productos farmacéuticos.
     Separador
@@ -46,9 +46,9 @@
           p.mb-0.col.ps-md-4(style="line-height: 3") El decreto 1345 del 2007, por el que se regula el procedimiento de autorización, registro y condiciones de dispensación de los medicamentos de uso humano fabricados industrialmente, dispone como documentación necesaria para la autorización de un medicamento, la presentación de la ficha técnica aprobada, que deberá ajustarse en su contenido  a lo previsto en el Anexo II de dicha norma.
     
     .cajon.cajon-edit.color-secundario.col-md-6.col-lg-10.mx-auto.p-4.mb-5
-      p(data-aos="fade-right") Realmente, a partir del momento que fue creada la EMEA (Agencia Europea de Medicamentos), es cuando la ficha técnica se convirtió en un documento estándar en todos los países de la UE, incorporando nuevos apartados con respecto a los establecidos en la legislación española, desde entonces, todas las modificaciones que se realicen a la ficha técnica deberán ser autorizadas por las Agencias reguladoras.
+      p(data-aos="fade-right") Realmente, a partir del momento que fue creada la EMEA (Agencia Europea de Medicamentos), es cuando la ficha técnica se convirtió en un documento estándar en todos los países de la UE, incorporando nuevos apartados con respecto a los establecidos en la legislación española. desde entonces, todas las modificaciones que se realicen a la ficha técnica deberán ser autorizadas por las Agencias reguladoras.
     
-    p.mb-5(data-aos="fade-right") El contenido de la ficha técnica se encuentra descrito en el anexo II - Contenido de la ficha técnica o resumen de características del producto- del real decreto 1345 del 2007, pero La EMEA “A Guideline on Summary of Product Characteristics” establece diez ítems estandarizados en todos los países de la UE:
+    p.mb-5(data-aos="fade-right") El contenido de la ficha técnica se encuentra descrito en el anexo II - Contenido de la ficha técnica o resumen de características del producto- del real decreto 1345 del 2007, pero La EMEA “<em>A Guideline on Summary of Product Characteristics</em>” [Directrices sobre el resumen de las características del producto] establece diez ítems estandarizados en todos los países de la UE:
 
     .col-lg-10.mx-auto.tarjeta.p-4.mb-5(style="overflow: hidden; background-color: #F7F6FE")
       ul.lista-ul--color.lista-ul--separador
@@ -67,7 +67,7 @@
         li
           p.mb-0.col.ps-4(data-aos="fade-right") 7. Titular de la autorización de comercialización.
         li
-          p.mb-0.col.ps-4(data-aos="fade-right") 8. Nº de la autorización de comercialización.
+          p.mb-0.col.ps-4(data-aos="fade-right") 8. N.º de la autorización de comercialización.
         li
           p.mb-0.col.ps-4(data-aos="fade-right") 9. Fecha de primera autorización/revocación de la autorización.
         li
@@ -84,7 +84,7 @@
       ul.lista-ul--color.lista-ul--separador.mb-0.col-lg-10.mx-auto
         li.d-flex
           img(src="@/assets/curso/temas/decorador-2.svg" style="width: 25px; height: 25px;" data-aos="fade-right")
-          p.mb-0.col.ps-4(data-aos="fade-left") Que el pedido procede del proveedor seleccionado y a nombre del establecimiento.
+          p.mb-0.col.ps-4(data-aos="fade-left") No es un prospecto.
         li.d-flex
           img(src="@/assets/curso/temas/decorador-2.svg" style="width: 25px; height: 25px;" data-aos="fade-right")
           p.mb-0.col.ps-4(data-aos="fade-left") No es un documento publicitario o folleto comercial del medicamento.
@@ -163,12 +163,12 @@
       
       .row
         .col-md-6.col-lg-8.mb-4.mb-md-0.d-flex.align-items-center.order-2.order-md-1(data-aos="fade-right")
-          p Por último, está el personal que realiza la limpieza y/o la recolección de residuos, porque en ciertos momentos pueden estar limpiando derrames o recogiendo residuos y/o envases de sustancias peligrosas.
+          p Por último, está el personal que realiza la limpieza o la recolección de residuos, porque en ciertos momentos pueden estar limpiando derrames o recogiendo residuos y/o envases de sustancias peligrosas.
         .col-md-6.col-lg-4.order-1.order-md-2.mb-4.mb-md-0(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/tema3/img-11.png')
 
-    p.mb-5(data-aos="fade-right") Los productos químicos más frecuentes utilizados en la industria farmacéutica son: 
+    p.mb-5(data-aos="fade-right") Los productos químicos utilizados con más frecuencia en la industria farmacéutica son: 
 
     .col-lg-10.mx-auto.tarjeta.p-4.mb-5(style="background-color: #CFF0F9; overflow: hidden;")
       ul.lista-ul--color.col-lg-11.ms-lg-auto
@@ -189,7 +189,7 @@
           p.mb-0.ps-2(data-aos="fade-left") Sustancias infecciosas: secreciones, sangre, muestras de diagnóstico, etc.
         li.d-flex.mb-4
           img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
-          p.mb-0.ps-2(data-aos="fade-left") Material radioactivo.
+          p.mb-0.ps-2(data-aos="fade-left") Material radiactivo.
         li.d-flex.mb-4
           img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
           p.mb-0.ps-2(data-aos="fade-left") Corrosivos: hipoclorito sódico.
@@ -218,13 +218,13 @@
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") No proviene del titular del Registro Sanitario, del laboratorio farmacéutico fabricante o del distribuidor o vendedor autorizado, de acuerdo con la reglamentación que al efecto expida el Ministerio de Salud.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") El introducido al país sin cumplir con los requisitos técnicos y legales establecidos en el decreto regulatorio.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Cuando no esté amparado con Registro Sanitario.
-      p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") El contenido no corresponda al autorizado, o se hubiere sustraído del original total o parcialmente.
+      p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Aquel cuyo contenido no corresponda con el autorizado, o se hubiere sustraído del original total o parcialmente.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Elaborado por laboratorio farmacéutico que no tenga autorización para su fabricación.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") El que utiliza envase, empaque o rótulo, diferente al autorizado.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Elaborado por laboratorio farmacéutico que no tenga Licencia Sanitaria de Funcionamiento.
 
     .d-flex.flex-wrap.col-xl-10.mx-auto.mb-5
-      h2.p-4.px-md-5(style="background-color: #B19EEE" data-aos="fade-right") PRODUCTO FARMACÉUTICO ALTERADO
+      h2.p-4.px-md-5(style="background-color: #B19EEE" data-aos="fade-right") Producto farmacéutico alterado
       p.w-100(data-aos="fade-right") Es el que se encuentra en una de las siguientes situaciones:
     
     img.mb-5.col-lg-10.mx-auto.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img-15.png" style="max-width: 1030px" data-aos="fade-right")

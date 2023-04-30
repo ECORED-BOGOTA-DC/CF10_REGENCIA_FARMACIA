@@ -9,7 +9,7 @@
     p.mb-5(data-aos="fade-right") Se refiere a un artefacto numerado que se utiliza sobre dispositivos de cierre, para garantizar que estos no se abran sin previa autorización, ya sea adrede por manos extrañas, o por accidente.
       br
       br
-      |Estos no son reutilizables y eliminarlos implica su destrucción, de manera que es inevitable no darse cuenta cuando son eliminados. Según el material, los precintos pueden ser:
+      |Estos no son reutilizables y eliminarlos implica su destrucción, de manera que es inevitable darse cuenta cuando son eliminados. Según el material, los precintos pueden ser:
     .basic-container.justify-content-center
       .decoration-tarjeta.col-lg-6.mx-md-4(data-aos="fade-right")
         figure.mb-5

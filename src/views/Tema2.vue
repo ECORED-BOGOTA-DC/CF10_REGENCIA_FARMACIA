@@ -7,7 +7,7 @@
         span 2
       h1 Normativa de calidad del proceso de recepción
     
-    p.mb-5(data-aos="fade-right") Esta resolución, en el capítulo II - PROCEDIMIENTOS PARA LOS PROCESOS GENERALES - numeral 3.3, reglamenta el proceso general de recepción de medicamentos y dispositivos médicos.
+    p.mb-5(data-aos="fade-right") Esta resolución, en el capítulo II - PROCEDIMIENTOS PARA LOS PROCESOS GENERALES - numeral 3.3, se reglamenta el proceso general de recepción de medicamentos y dispositivos médicos.
 
     .tarjeta.p-3.col-xl-10.mx-auto(style="background: linear-gradient(0deg, rgba(129,209,250,1) 0%, rgba(126,94,227,1) 100%);")
       .row.justify-content-around.align-items-center
@@ -24,9 +24,9 @@
                 i.fas.fa-file-download(style="color: black !important")
     Separador
     .titulo-segundo.color-acento-contenido
-      h2 2.1 Conceptos básicos
+      h2#t_2_1 2.1 Conceptos básicos
     
-    p.mb-5(data-aos="fade-right") El proceso de recepción de medicamentos y dispositivos médicos permanecerá bajo la responsabilidad el director técnico del servicio farmacéutico (Químico Farmacéutico o Regente de Farmacia). 
+    p.mb-5(data-aos="fade-right") El proceso de recepción de medicamentos y dispositivos médicos permanecerá bajo la responsabilidad del director técnico del servicio farmacéutico (Químico Farmacéutico o Regente de Farmacia). 
       br
       |El siguiente video presenta los criterios que se deben tener presente, para el proceso de recepción.
     figure.mb-5(data-aos="fade-left")
@@ -42,7 +42,7 @@
               img(src='@/assets/curso/temas/tema1/img-2.png')
           
         h2.text-center Área de cuarentena I Naranja
-        p(data-aos="fade-left") Es el área inicial donde se ubican los productos farmacéuticos mientras se inspeccionan. Debe contar  con mesa (no madera) y/o estantería y estibas que eviten que los medicamentos y dispositivos médicos tengan contacto con el suelo.
+        p(data-aos="fade-left") Es el área inicial donde se ubican los productos farmacéuticos mientras se inspeccionan. Debe contar  con mesa (que no sea de madera) o estantería y estibas que eviten que los medicamentos y dispositivos médicos tengan contacto con el suelo.
 
       .col-md.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
@@ -51,7 +51,7 @@
               img(src='@/assets/curso/temas/tema1/img-2.png')
           
         h2.text-center Área de inspección
-        p(data-aos="fade-left") Es el área donde se inspeccionan los productos farmacéuticos que llegan, y debe contar con una mesa (no madera) proporcional a la cantidad de productos que se manejan, con estibas para ubicar las cajas con mucho peso, lapicero, formatos (factura y acta de recepción) y demás insumos que se consideren necesarios para garantizar un excelente procedimiento.
+        p(data-aos="fade-left") Es el área donde se inspeccionan los productos farmacéuticos que llegan, y debe contar con una mesa (que no sea de madera) de un tamaño proporcional a la cantidad de productos que se manejan, con estibas para ubicar las cajas con mucho peso, lapicero, formatos (factura y acta de recepción) y demás insumos que se consideren necesarios para garantizar un excelente procedimiento.
 
       .col-md.tarjeta.color-primario.text-white.p-5
         .row.justify-content-center.mb-4
@@ -60,7 +60,7 @@
               img(src='@/assets/curso/temas/tema1/img-2.png')
           
         h2.text-center Área de cuarentena II Negra
-        p(data-aos="fade-left") Es el área donde se ubican los productos farmacéuticos que no cumplen con algún parámetro al realizar la recepción administrativa o técnica, mientras se decide que procedimiento se va a llevar a cabo con ellos.
+        p(data-aos="fade-left") Es el área donde se ubican los productos farmacéuticos que no cumplen con algún parámetro al realizar la recepción administrativa o técnica, mientras se decide qué procedimiento se va a llevar a cabo con ellos.
     Separador
 
     .tarjeta.p-4.mb-5(style="background-color: #F7F6FE")
@@ -107,7 +107,7 @@
             p.mb-0.ps-2(data-aos="fade-left") Fecha y hora de entrega.
           li.d-flex
             img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
-            p.mb-0.ps-2(data-aos="fade-left") Cantidad pedida = cantidad recibida = cantidad facturada.
+            p.mb-0.ps-2(data-aos="fade-left") Que la cantidad pedida sea igual a la cantidad recibida  y a la cantidad facturada.
     
     .tarjeta.p-4.p-lg-5.mb-5(style="background-color: #F9FCFF")
       SlyderA(tipo="b")
@@ -175,10 +175,10 @@
           img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
           p.mb-0.ps-3(data-aos="fade-left") Determinar el control de “pasa, no pasa” teniendo presente los niveles de calidad definidos por la empresa.
     
-    p.mb-5(data-aos="fade-right") A continuación en la tabla 1 se presenta el análisis organoléptico para medicamentos:
+    p.mb-5(data-aos="fade-right") A continuación, en la tabla 1, se presenta el análisis organoléptico para medicamentos:
 
     .titulo-sexto.color-acento-botones(data-aos="fade-right")
-      span.text-small Tabla 1. Análisis organoléptico para medicamentos
+      span.text-small <b>Tabla 1</b> <em>Análisis organoléptico para medicamentos</em>
     
     .tabla-b.color-acento-contenido.mb-5
       table
@@ -218,7 +218,7 @@
     
     .background-offset.mb-5(style="background-color: #F0EDFC")
       p.mb-4.fw-bold(data-aos="fade-left") Devolución de medicamentos
-      p.mb-4(data-aos="fade-right") Las devoluciones de productos farmacéuticos deben contar con un área específica (área de cuarentena II Negra), retirada del área de almacenamiento y/o dispensación, y estos productos no pueden ser distribuidos. 
+      p.mb-4(data-aos="fade-right") Las devoluciones de productos farmacéuticos deben contar con un área específica (área de cuarentena II Negra), retirada del área de almacenamiento o dispensación, y estos productos no pueden ser distribuidos. 
 
       p.mb-5(data-aos="fade-right") Durante el proceso de recepción administrativa y técnica, se pueden generar devoluciones de medicamentos por diferentes razones:
 
@@ -228,7 +228,7 @@
             ul.lista-ul--color.mb-0
               li.d-flex
                 img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
-                p.mb-0.ps-3(data-aos="fade-left") Más cantidad de lo solicitado y/o facturado.
+                p.mb-0.ps-3(data-aos="fade-left") Más cantidad de lo solicitado o facturado.
               li.d-flex
                 img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
                 p.mb-0.ps-3(data-aos="fade-left") Producto no solicitado en la orden de compra.

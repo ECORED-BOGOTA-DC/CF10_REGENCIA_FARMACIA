@@ -26,7 +26,7 @@
           p.mb-0.ps-2(data-aos="fade-left") <b>Vender para comprar:</b> consiste en vender una mercancía para comprar otra.
         li.d-flex.mb-4
           img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
-          p.mb-0.ps-2(data-aos="fade-left") <b>Comprar para vender:</b> consiste en comprar una mercancía en un costo más bajo para venderla en un costo más alto.
+          p.mb-0.ps-2(data-aos="fade-left") <b>Comprar para vender:</b> consiste en comprar una mercancía en un costo más bajo para venderla a un costo más alto.
 
     Separador
 
@@ -85,32 +85,32 @@ export default {
     datosLineaTiempoB: [
       {
         titulo: 'Materias primas',
-        texto: 'Están innatas porque no han sido procesadas o transformadas.',
+        texto: 'No han sido procesadas o transformadas.',
         icono: require('@/assets/curso/temas/tema4/img-3.png'),
       },
       {
         titulo: 'Semiproductos o productos intermedios',
         texto:
-          'Semiproductos o productos intermedios: son los que han sido sometidos a algún proceso de transformación.',
+          'Son los que han sido sometidos a algún proceso de transformación.',
         icono: require('@/assets/curso/temas/tema4/img-4.png'),
       },
       {
         titulo: 'Producto en bruto',
         texto:
-          'Son los que, por situaciones específicas, requieren de un acondicionamiento o transporte especial.',
+          'Es aquel que, por situaciones específicas, requieren de un acondicionamiento o transporte especial.',
         icono: require('@/assets/curso/temas/tema4/img-5.png'),
       },
       {
         titulo: 'Productos elaborados',
         texto:
-          'Producto completamente transformado, destinado al consumo final.',
+          'Productos completamente transformados, destinados al consumo final.',
         icono: require('@/assets/curso/temas/tema4/img-6.png'),
       },
     ],
     datosLineaTiempoB2: [
       {
         titulo: 'Perecederas',
-        texto: 'Su vida útil oscila entre 1 a 7 días.',
+        texto: 'Su vida útil oscila entre 1 y 7 días.',
         icono: require('@/assets/curso/temas/tema4/img-7.png'),
       },
       {
@@ -132,7 +132,7 @@ export default {
       },
       {
         titulo: 'Dimensionales',
-        texto: 'Son las de gran volumen.',
+        texto: 'Son aquellas con gran volumen.',
         icono: require('@/assets/curso/temas/tema4/img-11.png'),
       },
     ],

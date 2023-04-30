@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Mercancía
+      h1 Cargas de mercancía
 
     p(data-aos="fade-right") Se refiere al conjunto de mercancías que pueden estar cubiertas (embaladas) o descubiertas (sin embalaje), dispuestas para su traslado desde un punto a otro, y sometidas a diferentes operaciones, con el propósito de lograr tal fin sin que se afecten sus características.
     Separador
@@ -36,7 +36,7 @@
           p.mb-0.ps-2(data-aos="fade-left") Vehículos, contenedores, embalaje y etiquetado especiales, para el transporte de productos farmacéuticos, que garanticen la conservación de la temperatura de la carga.
     
     .cajon.cajon-edit.color-secundario.col-md-6.col-lg-7.mx-auto.p-4.mb-5
-      p.mb-0(data-aos="fade-right") La carga de productos farmacéuticos requiere de mayor cuidado porque constantemente se ve expuesta a robos; en mayor grado, las sustancias controladas o de alto costo, debido a que pueden ser muy bien pagas en el mercado negro. Los robos de carga de productos farmacéuticos son la principal razón que afecta la cadena de suministro y la mayor causa de productos fraudulentos y adulterados.
+      p.mb-0(data-aos="fade-right") La carga de productos farmacéuticos requiere de mayor cuidado porque constantemente se ve expuesta a robos; en mayor grado, las sustancias controladas o de alto costo, debido a que pueden ser muy bien pagas en el mercado negro. Los robos de carga de productos farmacéuticos son la situación que afecta la cadena de suministro con más frecuencia y la causa más común del aumento de productos fraudulentos y adulterados.
     Separador 
 
     .titulo-segundo.color-acento-contenido

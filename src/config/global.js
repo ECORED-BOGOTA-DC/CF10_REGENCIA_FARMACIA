@@ -151,7 +151,7 @@ export default {
         icono: 'far fa-file-alt',
         numero: '10',
         titulo:
-          'Manual de Gestión de Procesos y procedimientos de los Servicios Farmacéuticos',
+          'Manual de Gestión de Procesos y Procedimientos de los Servicios Farmacéuticos',
         desarrolloContenidos: true,
       },
     ],
@@ -183,11 +183,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      // {
-      //   icono: 'fas fa-download',
-      //   titulo: 'Descargar material',
-      //   download: 'downloads/material.zip',
-      // },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
+      },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',

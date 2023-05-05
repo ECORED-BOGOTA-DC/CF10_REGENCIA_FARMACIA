@@ -7,7 +7,7 @@
         span 2
       h1 Normativa de calidad del proceso de recepción
     
-    p.mb-5(data-aos="fade-right") Esta resolución, en el capítulo II - PROCEDIMIENTOS PARA LOS PROCESOS GENERALES - numeral 3.3, se reglamenta el proceso general de recepción de medicamentos y dispositivos médicos.
+    p.mb-5(data-aos="fade-right") Esta resolución, en el capítulo II - PROCEDIMIENTOS PARA LOS PROCESOS GENERALES - numeral 3.3, reglamenta el proceso general de recepción de medicamentos y dispositivos médicos.
 
     .tarjeta.p-3.col-xl-10.mx-auto(style="background: linear-gradient(0deg, rgba(129,209,250,1) 0%, rgba(126,94,227,1) 100%);")
       .row.justify-content-around.align-items-center
@@ -178,7 +178,9 @@
     p.mb-5(data-aos="fade-right") A continuación, en la tabla 1, se presenta el análisis organoléptico para medicamentos:
 
     .titulo-sexto.color-acento-botones(data-aos="fade-right")
-      span.text-small <b>Tabla 1</b> <em>Análisis organoléptico para medicamentos</em>
+      span.text-small <b>Tabla 1</b>
+        br
+        |<em>Análisis organoléptico para medicamentos</em>
     
     .tabla-b.color-acento-contenido.mb-5
       table

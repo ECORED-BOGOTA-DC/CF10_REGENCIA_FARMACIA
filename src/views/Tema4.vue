@@ -26,7 +26,7 @@
           p.mb-0.ps-2(data-aos="fade-left") <b>Vender para comprar:</b> consiste en vender una mercancía para comprar otra.
         li.d-flex.mb-4
           img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
-          p.mb-0.ps-2(data-aos="fade-left") <b>Comprar para vender:</b> consiste en comprar una mercancía en un costo más bajo para venderla a un costo más alto.
+          p.mb-0.ps-2(data-aos="fade-left") <b>Comprar para vender:</b> consiste en comprar una mercancía a un costo más bajo para venderla a un costo más alto.
 
     Separador
 

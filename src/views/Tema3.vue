@@ -46,7 +46,7 @@
           p.mb-0.col.ps-md-4(style="line-height: 3") El decreto 1345 del 2007, por el que se regula el procedimiento de autorización, registro y condiciones de dispensación de los medicamentos de uso humano fabricados industrialmente, dispone como documentación necesaria para la autorización de un medicamento, la presentación de la ficha técnica aprobada, que deberá ajustarse en su contenido  a lo previsto en el Anexo II de dicha norma.
     
     .cajon.cajon-edit.color-secundario.col-md-6.col-lg-10.mx-auto.p-4.mb-5
-      p(data-aos="fade-right") Realmente, a partir del momento que fue creada la EMEA (Agencia Europea de Medicamentos), es cuando la ficha técnica se convirtió en un documento estándar en todos los países de la UE, incorporando nuevos apartados con respecto a los establecidos en la legislación española. desde entonces, todas las modificaciones que se realicen a la ficha técnica deberán ser autorizadas por las Agencias reguladoras.
+      p(data-aos="fade-right") Realmente, a partir del momento que fue creada la EMEA (Agencia Europea de Medicamentos), es cuando la ficha técnica se convirtió en un documento estándar en todos los países de la UE, incorporando nuevos apartados con respecto a los establecidos en la legislación española; desde entonces, todas las modificaciones que se realicen a la ficha técnica deberán ser autorizadas por las Agencias reguladoras.
     
     p.mb-5(data-aos="fade-right") El contenido de la ficha técnica se encuentra descrito en el anexo II - Contenido de la ficha técnica o resumen de características del producto- del real decreto 1345 del 2007, pero La EMEA “<em>A Guideline on Summary of Product Characteristics</em>” [Directrices sobre el resumen de las características del producto] establece diez ítems estandarizados en todos los países de la UE:
 
@@ -163,7 +163,7 @@
       
       .row
         .col-md-6.col-lg-8.mb-4.mb-md-0.d-flex.align-items-center.order-2.order-md-1(data-aos="fade-right")
-          p Por último, está el personal que realiza la limpieza o la recolección de residuos, porque en ciertos momentos pueden estar limpiando derrames o recogiendo residuos y/o envases de sustancias peligrosas.
+          p Por último, está el personal que realiza la limpieza o la recolección de residuos, porque en ciertos momentos pueden estar limpiando derrames o recogiendo residuos o envases de sustancias peligrosas.
         .col-md-6.col-lg-4.order-1.order-md-2.mb-4.mb-md-0(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/tema3/img-11.png')

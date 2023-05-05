@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    p.mb-4(data-aos="fade-left") Partiendo de la definición del Decreto 780 del 2016 se puede definir el Servicio Farmacéutico como:
+    p.mb-4(data-aos="fade-left") Partiendo del Decreto 780 del 2016 se puede definir el Servicio Farmacéutico como:
 
     .basic-container.mb-5
       .col-12.col-md-8.col-xl-4.d-flex.align-items-center(data-aos="fade-right")

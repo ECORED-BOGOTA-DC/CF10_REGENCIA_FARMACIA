@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 10
-      h1 Manual de gestión de procesos y procedimientos de los servicios farmacéuticos
+      h1 Manual de Gestión de Procesos y Procedimientos de los Servicios Farmacéuticos
 
     .basic-container.col-xl-10.mx-auto.mb-5
       img.col-lg-8.mb-auto(src='@/assets/curso/temas/tema9/img-2.jpg' style="max-width: 714px" data-aos="fade")

@@ -327,23 +327,24 @@ export default {
     },
     {
       referencia:
-        'Sánchez y Arroyo. (2007). ¿Consultamos la ficha técnica de los medicamentos? Boletín Farmacoterapéutico de Castilla la Mancha. Vol. VIII, N 5.',
+        'Sánchez y Arroyo. (2007). <em>¿Consultamos la ficha técnica de los medicamentos?</em> Boletín Farmacoterapéutico de Castilla la Mancha. Vol. VIII, N 5.',
       link:
         'https://sanidad.castillalamancha.es/sites/sescam.castillalamancha.es/files/documentos/farmacia/viii_05_utilidadfichatecnica.pdf',
     },
     {
       referencia:
-        'Semana.com. (2014). 10 beneficios del código de barras. Sesión Dinero.',
+        'Semana.com. (2014). <em>10 beneficios del código de barras.</em> Sesión Dinero.',
       link:
         'https://www.semana.com/empresas/articulo/para-que-sirve-codigo-barras/202025/',
     },
     {
-      referencia: 'Significados.com. (03 de marzo del 2018). Qué es producto.',
+      referencia:
+        'Significados.com. (03 de marzo del 2018). <em>Qué es producto.</em>',
       link: 'https://www.significados.com/producto/',
     },
     {
       referencia:
-        'UNAB (s.f.). Unidad 4. Recepción y almacenamiento de medicamentos y dispositivos médicos.',
+        'UNAB (s.f.). <em>Unidad 4. Recepción y almacenamiento de medicamentos y dispositivos médicos.</em>',
       link:
         'http://unab.edupol.com.co/pluginfile.php/7207/mod_resource/content/1/UNIDAD_4%20Recepci%C3%B3n%20y%20almacenamiento%20de%20medicamentos%20y%20dispositivos%20m%C3%A9dicos.pdf',
     },

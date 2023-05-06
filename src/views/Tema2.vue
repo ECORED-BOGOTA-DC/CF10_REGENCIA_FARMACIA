@@ -178,9 +178,8 @@
     p.mb-5(data-aos="fade-right") A continuación, en la tabla 1, se presenta el análisis organoléptico para medicamentos:
 
     .titulo-sexto.color-acento-botones(data-aos="fade-right")
-      span.text-small <b>Tabla 1</b>
-        br
-        |<em>Análisis organoléptico para medicamentos</em>
+      h5.mb-0.text-small Tabla 1
+      p.mb-0.text-small <em>Análisis organoléptico para medicamentos</em>
     
     .tabla-b.color-acento-contenido.mb-5
       table

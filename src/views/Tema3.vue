@@ -202,7 +202,7 @@
       .titulo-sexto.color-acento-botones.mb-5(data-aos="fade-right")
         h5.mb-0.text-small Figura 2
         p.mb-0.text-small Símbolos de sustancias
-      .d-flex.flex-wrap(data-aos="fade-left")
+      .d-flex.flex-wrap.align-items-start(data-aos="fade-left")
         img.col-12.col-lg-6.mx-auto.mb-4.mb-lg-0(src="@/assets/curso/temas/tema3/img-12.svg" style="max-width: 500px")
         img.col-12.col-lg-6.mx-auto(src="@/assets/curso/temas/tema3/img-13.svg" style="max-width: 500px")
     Separador 

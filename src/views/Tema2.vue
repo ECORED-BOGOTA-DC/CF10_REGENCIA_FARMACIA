@@ -62,6 +62,13 @@
         h2.text-center Área de cuarentena II Negra
         p(data-aos="fade-left") Es el área donde se ubican los productos farmacéuticos que no cumplen con algún parámetro al realizar la recepción administrativa o técnica, mientras se decide qué procedimiento se va a llevar a cabo con ellos.
     Separador
+    .titulo-segundo.color-acento-contenido
+      h2#t_2_2 2.2 Métodos de verificación, especificaciones y criterios
+    
+    p.mb-5 La recepción de los productos farmacéuticos debe satisfacer completamente los procedimientos administrativos y técnicos de verificación, para poder ser ingresados al sistema contable del servicio farmacéutico.
+      br
+      |El proceso de recepción cuenta con dos métodos de verificación importantes: la recepción administrativa y la recepción técnica. Se conocerán cada uno de estos métodos.
+
 
     .tarjeta.p-4.mb-5(style="background-color: #F7F6FE")
       .basic-container.col-lg-10.mx-auto
@@ -107,8 +114,8 @@
             p.mb-0.ps-2(data-aos="fade-left") Fecha y hora de entrega.
           li.d-flex
             img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
-            p.mb-0.ps-2(data-aos="fade-left") Que la cantidad pedida sea igual a la cantidad recibida  y a la cantidad facturada.
-    
+            p.mb-0.ps-2(data-aos="fade-left") Cantidad pedida = cantidad recibida = cantidad facturada.
+    p.mb-5 A continuación, se puede observar las características de una orden de compra y de una factura:
     .tarjeta.p-4.p-lg-5.mb-5(style="background-color: #F9FCFF")
       SlyderA(tipo="b")
         .tarjeta(style="background-color: white; overflow: hidden;")

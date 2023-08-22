@@ -69,7 +69,7 @@
     .tarjeta.p-4(style="background-color: #F1FBFC; overflow: hidden;")
       .tarjeta(style="background-color: #F1FBFC;")
         .titulo-sexto.color-acento-botones.mb-5(data-aos="fade-right")
-          h5.mb-0.text-small Figura 3
+          h5.mb-0.text-small Figura 4
           p.mb-0.text-small Cómo se lee un código de barras
       img.mx-auto.mb-auto(src='@/assets/curso/temas/tema8/img-2.svg' style="max-width: 540px" data-aos="fade-left")
 </template>

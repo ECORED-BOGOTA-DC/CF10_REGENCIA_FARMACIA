@@ -218,7 +218,7 @@
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") No proviene del titular del Registro Sanitario, del laboratorio farmacéutico fabricante o del distribuidor o vendedor autorizado, de acuerdo con la reglamentación que al efecto expida el Ministerio de Salud.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") El introducido al país sin cumplir con los requisitos técnicos y legales establecidos en el decreto regulatorio.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Cuando no esté amparado con Registro Sanitario.
-      p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Aquel cuyo contenido no corresponda con el autorizado, o se hubiere sustraído del original total o parcialmente.
+      p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") El contenido no corresponda al autorizado, o se hubiere sustraído del original total o parcialmente.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Elaborado por laboratorio farmacéutico que no tenga autorización para su fabricación.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") El que utiliza envase, empaque o rótulo, diferente al autorizado.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Elaborado por laboratorio farmacéutico que no tenga Licencia Sanitaria de Funcionamiento.

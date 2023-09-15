@@ -12,7 +12,7 @@
     .tarjeta.p-3.col-xl-10.mx-auto(style="background: linear-gradient(0deg, rgba(129,209,250,1) 0%, rgba(126,94,227,1) 100%);")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/template/icono-pdf.svg" data-aos="fade-right")
+          img(src="@/assets/template/icono-pdf.svg" data-aos="fade-right" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco(data-aos="fade")
@@ -26,7 +26,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_2_1 2.1 Conceptos básicos
     
-    p.mb-5(data-aos="fade-right") El proceso de recepción de medicamentos y dispositivos médicos permanecerá bajo la responsabilidad del director técnico del servicio farmacéutico (Químico Farmacéutico o Regente de Farmacia). 
+    p.mb-5(data-aos="fade-right") El proceso de recepción de medicamentos y dispositivos médicos permanecerá bajo la responsabilidad del director técnico del servicio farmacéutico (Químico Farmacéutico o Regente de Farmacia).
       br
       |El siguiente video presenta los criterios que se deben tener presente, para el proceso de recepción.
     figure.mb-5(data-aos="fade-left")
@@ -39,7 +39,7 @@
         .row.justify-content-center.mb-4
           .col-6(data-aos="fade-right")
             figure
-              img(src='@/assets/curso/temas/tema1/img-2.png')
+              img(src='@/assets/curso/temas/tema1/img-2.png' alt="Imagen decorativa")
           
         h2.text-center Área de cuarentena I Naranja
         p(data-aos="fade-left") Es el área inicial donde se ubican los productos farmacéuticos mientras se inspeccionan. Debe contar  con mesa (que no sea de madera) o estantería y estibas que eviten que los medicamentos y dispositivos médicos tengan contacto con el suelo.
@@ -48,7 +48,7 @@
         .row.justify-content-center.mb-4
           .col-6(data-aos="fade-right")
             figure
-              img(src='@/assets/curso/temas/tema1/img-2.png')
+              img(src='@/assets/curso/temas/tema1/img-2.png' alt="Imagen decorativa")
           
         h2.text-center Área de inspección
         p(data-aos="fade-left") Es el área donde se inspeccionan los productos farmacéuticos que llegan, y debe contar con una mesa (que no sea de madera) de un tamaño proporcional a la cantidad de productos que se manejan, con estibas para ubicar las cajas con mucho peso, lapicero, formatos (factura y acta de recepción) y demás insumos que se consideren necesarios para garantizar un excelente procedimiento.
@@ -57,7 +57,7 @@
         .row.justify-content-center.mb-4
           .col-6(data-aos="fade-right")
             figure
-              img(src='@/assets/curso/temas/tema1/img-2.png')
+              img(src='@/assets/curso/temas/tema1/img-2.png' alt="Imagen decorativa")
           
         h2.text-center Área de cuarentena II Negra
         p(data-aos="fade-left") Es el área donde se ubican los productos farmacéuticos que no cumplen con algún parámetro al realizar la recepción administrativa o técnica, mientras se decide qué procedimiento se va a llevar a cabo con ellos.
@@ -86,7 +86,7 @@
               img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px")
               p.mb-0.ps-2 La factura.
           p ¿Qué debe hacer el director técnico (Químico Farmacéutico o Regente de Farmacia) responsable del servicio farmacéutico?
-        img.col-lg-5.m-auto.mb-5.mb-lg-auto(src='@/assets/curso/temas/tema1/img-3.png' style="max-width: 400px" data-aos="fade-left")
+        img.col-lg-5.m-auto.mb-5.mb-lg-auto(src='@/assets/curso/temas/tema1/img-3.png' style="max-width: 400px" data-aos="fade-left" alt="Imagen decorativa")
         p.w-100.mb-5 Verificar:
         .col-lg-10.mb-5.mx-auto
           ul.lista-ul--color.lista-ul--separador
@@ -120,11 +120,11 @@
       SlyderA(tipo="b")
         .tarjeta(style="background-color: white; overflow: hidden;")
           figure
-            img.col-xl-10.mx-auto(src='@/assets/curso/temas/tema1/img-4.jpg' style="max-width: 820px")
+            img.col-xl-10.mx-auto(src='@/assets/curso/temas/tema1/img-4.jpg' style="max-width: 820px" alt="Imagen de una orden de compra.")
             figcaption Orden de compra
         .tarjeta(style="background-color: white; overflow: hidden;")
           figure
-            img.col-xl-10.mx-auto(src='@/assets/curso/temas/tema1/img-5.jpg' style="max-width: 438px")
+            img.col-xl-10.mx-auto(src='@/assets/curso/temas/tema1/img-5.jpg' style="max-width: 438px" alt="Imagen de una factura.")
             figcaption Factura
     
     p.fw-bold Recepción técnica
@@ -138,7 +138,7 @@
           br
           br
           |En el acto preciso de la recepción de los medicamentos y dispositivos médicos, se deben revisar los siguientes parámetros: 
-      img.order-1.order-lg-2.col-lg-3.mb-4.mb-lg-auto.m-auto(src='@/assets/curso/temas/tema1/img-6.png' style="max-width: 295px" data-aos="fade-left")
+      img.order-1.order-lg-2.col-lg-3.mb-4.mb-lg-auto.m-auto(src='@/assets/curso/temas/tema1/img-6.png' style="max-width: 295px" data-aos="fade-left" alt="Imagen decorativa")
 
     .tarjeta.col-lg-10.mx-auto.p-4.mb-5(style="background-color: #CFF0F9")
       ul.lista-ul--color.mb-0
@@ -249,7 +249,7 @@
               li.d-flex
                 img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
                 p.mb-0.ps-3(data-aos="fade-left") Otras razones por las cuales pueden existir devoluciones se presentan por parte de los clientes, y para ello se deben analizar el caso y las condiciones internas de devolución, por parte de la empresa.
-        img.col-xl-8.my-auto.ms-auto(src="@/assets/curso/temas/tema1/img-7.jpg" style="max-width: 870px" data-aos="fade")
+        img.col-xl-8.my-auto.ms-auto(src="@/assets/curso/temas/tema1/img-7.jpg" style="max-width: 870px" data-aos="fade" alt="Imagen decorativa")
     
     .basic-container.p-4.px-lg-5.col-lg-10.mx-auto(style="background: linear-gradient(90deg, rgba(232,232,232,1) 0%, rgba(232,232,232,1) 50%, rgba(140,188,250,1) 50%);")
       p.mb-5.mb-xl-0.col-xl-3.fw-bold(data-aos="fade-right") De acuerdo con la Resolución 1403 del 2007: 

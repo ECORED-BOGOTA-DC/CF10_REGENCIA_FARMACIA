@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen que muestra el resumen de los temas vistos en el componente formativo y su importancia como es el caso de la normativa que existe para el proceso de recepción de productos farmacéuticos, sus métodos de verificación, para los cuales se utilizan fichas técnicas y estas a su vez obedecen al manual de gestión de procesos y procedimientos vigente para los servicios farmacéuticos.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

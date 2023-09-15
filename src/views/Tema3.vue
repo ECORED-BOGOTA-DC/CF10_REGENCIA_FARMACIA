@@ -8,7 +8,7 @@
       h1 Productos farmacéuticos
 
     .basic-container.col-lg-10.mx-auto.mb-5.mb-lg-0
-      img.col-lg-8(src='@/assets/curso/temas/tema3/img-1.jpg' style="max-width: 714px")
+      img.col-lg-8(src='@/assets/curso/temas/tema3/img-1.jpg' style="max-width: 714px" alt="Imagen decorativa")
       .col-lg-4.d-flex.align-items-center
         .conatiner-offset-2.bloque-texto-b.px-xl-4
           .bloque-texto-b__texto.justify-content-center.d-flex.mb-3
@@ -102,7 +102,7 @@
     .tarjeta.p-3.col-xl-10.mx-auto.mb-5(style="background: linear-gradient(0deg, rgba(129,209,250,1) 0%, rgba(126,94,227,1) 100%);")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema3/decorador-3.svg" data-aos="fade-right")
+          img(src="@/assets/curso/temas/tema3/decorador-3.svg" data-aos="fade-right" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco(data-aos="fade")
@@ -117,7 +117,7 @@
     .tarjeta.p-3.col-xl-10.mx-auto.mb-5(style="background: linear-gradient(0deg, rgba(129,209,250,1) 0%, rgba(126,94,227,1) 100%);")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema3/decorador-3.svg" data-aos="fade-right")
+          img(src="@/assets/curso/temas/tema3/decorador-3.svg" data-aos="fade-right" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco(data-aos="fade")
@@ -152,12 +152,12 @@
           p El mayor grado de exposición lo tiene el personal que trabaja en los laboratorios fabricantes debido a que allí se utiliza un gran número de sustancias químicas y en concentraciones muy altas, lo que puede provocar, a menudo, salpicaduras o derrames en la manipulación.
         .col-md-6.col-lg-4.order-1.order-md-2.mb-4.mb-md-0(data-aos="fade-left")
           figure
-            img(src='@/assets/curso/temas/tema3/img-9.png')
+            img(src='@/assets/curso/temas/tema3/img-9.png' alt="Imagen decorativa")
 
       .row
         .col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
           figure
-            img(src='@/assets/curso/temas/tema3/img-10.png')
+            img(src='@/assets/curso/temas/tema3/img-10.png' alt="Imagen decorativa")
         .col-md-6.col-lg-8.d-flex.align-items-center(data-aos="fade-left")
           p.text-start Posterior a esto, se encuentra el personal que realiza la recepción y el almacenamiento, porque en caso de un daño en el envase, son los primeros implicados.
       
@@ -166,7 +166,7 @@
           p Por último, está el personal que realiza la limpieza o la recolección de residuos, porque en ciertos momentos pueden estar limpiando derrames o recogiendo residuos o envases de sustancias peligrosas.
         .col-md-6.col-lg-4.order-1.order-md-2.mb-4.mb-md-0(data-aos="fade-left")
           figure
-            img(src='@/assets/curso/temas/tema3/img-11.png')
+            img(src='@/assets/curso/temas/tema3/img-11.png' alt="Imagen decorativa")
 
     p.mb-5(data-aos="fade-right") Los productos químicos utilizados con más frecuencia en la industria farmacéutica son: 
 
@@ -203,16 +203,16 @@
         h5.mb-0.text-small Figura 2
         p.mb-0.text-small Símbolos de sustancias
       .d-flex.flex-wrap.align-items-start(data-aos="fade-left")
-        img.col-12.col-lg-6.mx-auto.mb-4.mb-lg-0(src="@/assets/curso/temas/tema3/img-12.svg" style="max-width: 500px")
-        img.col-12.col-lg-6.mx-auto(src="@/assets/curso/temas/tema3/img-13.svg" style="max-width: 500px")
+        img.col-12.col-lg-6.mx-auto.mb-4.mb-lg-0(src="@/assets/curso/temas/tema3/img-12.svg" style="max-width: 500px" alt="Imagen que muestra los símbolos de las sustancias químicas.")
+        img.col-12.col-lg-6.mx-auto(src="@/assets/curso/temas/tema3/img-13.svg" style="max-width: 500px" alt="Imagen que muestra los símbolos de las sustancias químicas.")
     Separador 
     .titulo-segundo.color-acento-contenido
       h2 3.3 Productos fraudulentos y alterados
     
     p.mb-5(data-aos="fade-right") El Instituto Nacional de Vigilancia de Medicamentos y Alimentos – INVIMA los define de la siguiente manera:
 
-    img.mb-5.col-lg-10.mx-auto.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img-14.svg" style="max-width: 1030px" data-aos="fade-right")
-    img.mb-5.col-lg-10.mx-auto.d-flex.d-lg-none.mb-5(src="@/assets/curso/temas/tema3/img-17.svg" style="max-width: 450px" data-aos="fade-right")
+    img.mb-5.col-lg-10.mx-auto.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img-14.svg" style="max-width: 1030px" data-aos="fade-right" alt="Imagen que muestra la definición que da el INVIMA sobre los productos fraudulentos y alterados ")
+    img.mb-5.col-lg-10.mx-auto.d-flex.d-lg-none.mb-5(src="@/assets/curso/temas/tema3/img-17.svg" style="max-width: 450px" data-aos="fade-right" alt="Imagen que muestra la definición que da el INVIMA sobre los productos fraudulentos y alterados ")
 
     .d-block.d-lg-none.mb-5
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") No proviene del titular del Registro Sanitario, del laboratorio farmacéutico fabricante o del distribuidor o vendedor autorizado, de acuerdo con la reglamentación que al efecto expida el Ministerio de Salud.
@@ -227,8 +227,8 @@
       h2.p-4.px-md-5(style="background-color: #B19EEE" data-aos="fade-right") Producto farmacéutico alterado
       p.w-100(data-aos="fade-right") Es el que se encuentra en una de las siguientes situaciones:
     
-    img.mb-5.col-lg-10.mx-auto.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img-15.png" style="max-width: 1030px" data-aos="fade-right")
-    img.mb-5.d-flex.d-lg-none.mx-auto(src="@/assets/curso/temas/tema3/img-16.png" style="max-width: 500px" data-aos="fade-right")
+    img.mb-5.col-lg-10.mx-auto.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img-15.png" style="max-width: 1030px" data-aos="fade-right" alt="Imagen decorativa")
+    img.mb-5.d-flex.d-lg-none.mx-auto(src="@/assets/curso/temas/tema3/img-16.png" style="max-width: 500px" data-aos="fade-right" alt="Imagen decorativa")
     .d-block.d-lg-none
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Se le hubiere sustituido, sustraído total o parcialmente o reemplazado, los elementos constitutivos que forman parte de la composición oficialmente aprobada.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Se encuentre vencida la fecha de expiración correspondiente a la vida útil del producto.
@@ -251,17 +251,20 @@ export default {
       },
       {
         titulo: 'Medicamentos homeopáticos',
-        texto: '',
+        texto:
+          'Son preparados farmacéuticos obtenido por técnicas homeopáticas, conforme a las reglas descritas en las farmacopeas oficiales aceptadas en el país, con el objeto de prevenir, aliviar, curar, tratar y/o rehabilitar una condición médica.',
         imagen: require('@/assets/curso/temas/tema3/img-3.jpg'),
       },
       {
         titulo: 'Dispositivos médicos',
-        texto: '',
+        texto:
+          'Son un componente fundamental de los sistemas de salud; son esenciales para prevenir, diagnosticar, tratar y rehabilitar enfermedades de una manera segura y eficaz.',
         imagen: require('@/assets/curso/temas/tema3/img-4.svg'),
       },
       {
         titulo: 'Cosméticos',
-        texto: '',
+        texto:
+          'Son aquellos productos que se utilizan sobre el cuerpo humano con fines de limpieza, belleza o para alterar apariencia externa sin afectar el funcionamiento o estructura del organismo.',
         imagen: require('@/assets/curso/temas/tema3/img-5.jpg'),
       },
       {
@@ -272,12 +275,14 @@ export default {
       },
       {
         titulo: 'Fito-terapéuticos',
-        texto: '',
+        texto:
+          'Son productos medicinales empacados y etiquetados, cuyas sustancias activas provienen de material de la planta medicinal o asociaciones de estas, presentado en estado bruto o en forma farmacéutica que se utiliza con fines terapéuticos. También puede provenir de extractos, tinturas o aceites.',
         imagen: require('@/assets/curso/temas/tema3/img-7.svg'),
       },
       {
         titulo: 'Preparados magistrales no estériles',
-        texto: '',
+        texto:
+          'Son una preparación farmacéutica que se puede formular y elaborar en condiciones ambientales controladas, pero no estériles.',
         imagen: require('@/assets/curso/temas/tema3/img-8.svg'),
       },
     ],

@@ -8,7 +8,7 @@
       h1 Códigos de barra
     
     .basic-container
-      img.col-lg-4.mb-auto.mx-auto(src='@/assets/curso/temas/tema8/img-1.svg' style="max-width: 400px" data-aos="fade-right")
+      img.col-lg-4.mb-auto.mx-auto(src='@/assets/curso/temas/tema8/img-1.svg' style="max-width: 400px" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.ps-lg-3
         .bloque-texto-b.color-acento-contenido.p-4.mb-5
           .bloque-texto-b__texto
@@ -71,7 +71,7 @@
         .titulo-sexto.color-acento-botones.mb-5(data-aos="fade-right")
           h5.mb-0.text-small Figura 4
           p.mb-0.text-small Cómo se lee un código de barras
-      img.mx-auto.mb-auto(src='@/assets/curso/temas/tema8/img-2.svg' style="max-width: 540px" data-aos="fade-left")
+      img.mx-auto.mb-auto(src='@/assets/curso/temas/tema8/img-2.svg' style="max-width: 540px" data-aos="fade-left" alt="Muestra la manera de leer un código de barras y que fue explicado en el párrafo antes de la imagen.")
 </template>
 
 <script>

@@ -8,7 +8,7 @@
       h1 Manual de Gestión de Procesos y Procedimientos de los Servicios Farmacéuticos
 
     .basic-container.col-xl-10.mx-auto.mb-5
-      img.col-lg-8.mb-auto(src='@/assets/curso/temas/tema9/img-2.jpg' style="max-width: 714px" data-aos="fade")
+      img.col-lg-8.mb-auto(src='@/assets/curso/temas/tema9/img-2.jpg' style="max-width: 714px" data-aos="fade" alt="Imagen decorativa")
       .col-lg-4.d-flex.align-items-center
         .conatiner-offset-2(data-aos="fade-left")
           p La resolución 3100 del 2009 define los procedimientos y condiciones de habilitación de los servicios en salud, normativa a la que debe acogerse todo servicio farmacéutico para poder ser habilitado, además de cumplir con los estándares de calidad que exige el Sistema Único de Habilitación del Sistema Obligatorio de Garantía de Calidad de la Atención en Salud (SOGCS). 

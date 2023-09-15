@@ -8,12 +8,12 @@
       h1 Mercancía
     
     .d-flex.flex-wrap.col-lg-10.mx-auto.mb-5
-      img.d-none.d-lg-flex.my-auto.py-5.col-lg-4(src="@/assets/curso/temas/tema4/img-1.jpg" style="max-width: 323px")
+      img.d-none.d-lg-flex.my-auto.py-5.col-lg-4(src="@/assets/curso/temas/tema4/img-1.jpg" style="max-width: 323px" alt="Imagen decorativa")
       p.p-lg-5.p-4.col-lg-4.d-flex.align-items-center(style="background-color: #81D4FA" data-aos="fade-right") Se refiere a cualquier artículo u objeto que pueda ser comercializado o intercambiado en el mercado, con el fin de satisfacer una necesidad; en pocas palabras, es todo aquello que se puede vender o comprar. 
         br
         br
         |El valor de una mercancía inicia en su producción, la cual conlleva un costo o un trabajo que se evidencia en su circulación. 
-      img.d-none.d-lg-flex.my-auto.py-5.col-lg-4(src="@/assets/curso/temas/tema4/img-2.jpg" style="max-width: 323px")
+      img.d-none.d-lg-flex.my-auto.py-5.col-lg-4(src="@/assets/curso/temas/tema4/img-2.jpg" style="max-width: 323px" alt="Imagen decorativa")
 
     .col-lg-10.mx-auto.tarjeta.p-4.mb-5(style="background-color: #F7F6FE; overflow: hidden;")
       p(data-aos="fade-right") Carl Marx el padre del marxismo y materialismo histórico, propone algunos modelos que son:
@@ -47,7 +47,7 @@
       h2 4.2 Consolidación y desconsolidación
     
     .d-flex.flex-wrap.col-xl-9.offset-xl-1
-      img.col-lg-5.mx-auto.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img-12.svg' style="max-width: 400px" data-aos="fade-right")
+      img.col-lg-5.mx-auto.mb-4.mb-lg-0(src='@/assets/curso/temas/tema4/img-12.svg' style="max-width: 400px" data-aos="fade-right" alt="Imagen decorativa")
       p.col-lg-7.ps-lg-4(data-aos="fade-left") <b>La consolidación de la mercancía</b> es un servicio logístico que permite a la empresa reducir costos en el transporte de la mercancía, porque permite reunir distintas cargas, con embalajes diferentes o iguales y que vienen de distintas empresas, pero que comparten la misma ruta o destino.
         br
         br
@@ -73,7 +73,7 @@
           img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
           p.mb-0.ps-2(data-aos="fade-left") Permite mayor frecuencia de entregas.
       .d-flex.flex-wrap.w-100
-        img.col-md-4.mb-auto(src='@/assets/curso/temas/tema4/img-13.svg' style="max-width: 295px" data-aos="fade-right")
+        img.col-md-4.mb-auto(src='@/assets/curso/temas/tema4/img-13.svg' style="max-width: 295px" data-aos="fade-right" alt="Imagen decorativa")
         .col-md-8.d-flex.align-items-center.justify-content-center(style="background-color: #00BCD4; border: 1px solid #707070;" data-aos="fade-left")
           p.mb-0.p-4.text-white.fw-bold(style="max-width: 400px") La desconsolidación de la mercancía es el proceso logístico que consiste en vaciar de manera segura los contenedores, separando la mercancía para proceder con su entrega al destinatario.
 </template>

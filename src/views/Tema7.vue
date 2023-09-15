@@ -13,12 +13,12 @@
     .basic-container.justify-content-center
       .decoration-tarjeta.col-lg-6.mx-md-4(data-aos="fade-right")
         figure.mb-5
-          img(src='@/assets/curso/temas/tema7/img-1.jpg')
+          img(src='@/assets/curso/temas/tema7/img-1.jpg' alt="Imagen decorativa Precintos plásticos")
           figcaption Precintos plásticos
       .decoration-tarjeta.col-lg-6.mx-md-4(data-aos="fade-left")
         figure.mb-5
-          img(src='@/assets/curso/temas/tema7/img-2.jpg' style="max-width: 295px")
-          figcaption Precintos plásticos
+          img(src='@/assets/curso/temas/tema7/img-2.jpg' style="max-width: 295px" alt="Imagen decorativa Precintos metálicos")
+          figcaption Precintos metálicos
 
     .tarjeta.p-4.mb-5(style="background-color: #F7F6FE; overflow: hidden;")
       p(data-aos="fade-right") Los precintos metálicos se clasifican, por su nivel de seguridad, en:

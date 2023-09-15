@@ -14,7 +14,7 @@
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
           h5.mb-0.text-small Figura 1
           p.mb-0.text-small Resolución 1403 de 2007
-        img.mx-auto(src="@/assets/curso/temas/tema1/img-1.svg" style="max-width: 677px" data-aos="fade-left")
+        img.mx-auto(src="@/assets/curso/temas/tema1/img-1.svg" style="max-width: 677px" data-aos="fade-left" alt="Figura 1. que muestra a través de un esquema las disposiciones generales de la Resolución 1403 de 2007, sus objetivos que es determinar los criterios administrativos y técnicos generales del modelo de gestión de SF y la aplicación que imparte esta resolución y es para aquellas personas que realicen una o más actividades y/o procesos del Sistema farmacéutico.")
 </template>
 
 <script>

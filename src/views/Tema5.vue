@@ -49,7 +49,7 @@
         .titulo-sexto.color-acento-botones.mb-5(data-aos="fade-right")
           h5.mb-0.text-small Figura 3
           p.mb-0.text-small Símbolos y leyendas del etiquetado de los medicamentos
-      img.mx-auto.mb-auto(src='@/assets/curso/temas/tema5/img-1.jpg' style="max-width: 1030px" data-aos="fade-left")
+      img.mx-auto.mb-auto(src='@/assets/curso/temas/tema5/img-1.jpg' style="max-width: 1030px" data-aos="fade-left" alt="Muestra los diferentes símbolos que se utilizan para el etiquetado de los medicamentos.")
     
 </template>
 

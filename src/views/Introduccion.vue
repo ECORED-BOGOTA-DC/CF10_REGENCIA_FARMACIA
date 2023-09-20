@@ -2,15 +2,12 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
-
     p.mb-4(data-aos="fade-left") Partiendo del Decreto 780 del 2016 se puede definir el Servicio Farmacéutico como:
-
     .basic-container.mb-5
       .col-12.col-md-8.col-xl-4.d-flex.align-items-center(data-aos="fade-right")
         .conatiner-offset-1.bloque-texto-b
@@ -23,8 +20,8 @@
       br
       br
       |A continuación, se abordarán diferentes temas relacionados con el proceso de recepción de productos farmacéuticos, como la normatividad legal vigente, área de cuarentena, precintos, manual de procesos y procedimientos, entre otros, que permitirán identificar y entender el concepto exacto en pro de un mejoramiento continuo, tanto individual como colectivo.
-    
     p.text-center.fw-bold(data-aos="fade-top") ¡Muchos éxitos en este proceso de aprendizaje!
+
 </template>
 
 <script>

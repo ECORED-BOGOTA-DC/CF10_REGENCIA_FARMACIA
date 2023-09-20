@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 7
       h1 Precintos o sellos de seguridad
@@ -19,8 +19,7 @@
         figure.mb-5
           img(src='@/assets/curso/temas/tema7/img-2.jpg' style="max-width: 295px" alt="Imagen decorativa Precintos metálicos")
           figcaption Precintos metálicos
-
-    .tarjeta.p-4.mb-5(style="background-color: #F7F6FE; overflow: hidden;")
+    .tarjeta.p-4(style="background-color: #F7F6FE; overflow: hidden;")
       p(data-aos="fade-right") Los precintos metálicos se clasifican, por su nivel de seguridad, en:
       ul.lista-ul--color.mb-0
         li.d-flex.mb-0
@@ -32,6 +31,7 @@
         li.d-flex.mb-0
           img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
           p.mb-0.ps-3.ps-md-5(data-aos="fade-left") <b>Indicativos:</b> son utilizados solo como identificación, razón por la que no son muy resistentes.
+
 </template>
 
 <script>

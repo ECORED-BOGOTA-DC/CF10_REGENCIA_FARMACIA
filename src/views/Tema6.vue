@@ -2,11 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 6
       h1 Embalajes
-
     .d-flex.flex-wrap.mb-5
       img.mx-auto.col-lg-3.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema6/img-1.jpg' style="max-width: 295px" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-9.ps-lg-3
@@ -38,7 +37,6 @@
               img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
               p.mb-0.ps-2(data-aos="fade-left") Minimiza los riesgos para los individuos.
         p.mb-5(data-aos="fade-right") El proceso de embalar requiere además tener presente las características generales y específicas de los productos, como:
-
         ul.lista-ul--color.lista-ul--separador
           li
             p.mb-0(data-aos="fade-right") <b>Estado físico:</b> sólido, líquido, gaseoso.
@@ -52,13 +50,13 @@
             p.mb-0(data-aos="fade-right") <b>Características del medio de transporte:</b> limitaciones de espacio y el peso del vehículo de transporte.
           li
             p.mb-0(data-aos="fade-right") <b>Costos:</b> fabricación, manipulación, etc.
-    
     .d-flex.flex-wrap
       img.mx-auto.col-lg-4.mb-4.mb-lg-auto(src='@/assets/curso/temas/tema6/img-2.jpg' style="max-width: 400px" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.ps-lg-4.d-flex.flex-wrap.align-content-center(data-aos="fade-left")
         p.mb-4.w-100 Los embalajes pueden ser de uso interno o externo; en cuanto a material pueden ser de madera, plástico, cartón, papel y metal. En el material complementario se encuentra un enlace donde se amplía la información de cada uno de estos materiales, su uso, ventajas y características.
         .cajon.cajon-edit.color-secundario.p-4.w-100
-          p.mb-0 El embalaje que se utiliza para transportar los productos farmacéuticos debe resistir las condiciones del almacenamiento y el traslado, la compresión o apilamiento y la vibración.  
+          p.mb-0 El embalaje que se utiliza para transportar los productos farmacéuticos debe resistir las condiciones del almacenamiento y el traslado, la compresión o apilamiento y la vibración.
+
 </template>
 
 <script>

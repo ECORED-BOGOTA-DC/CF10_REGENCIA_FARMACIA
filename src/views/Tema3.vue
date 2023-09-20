@@ -2,11 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Productos farmacéuticos
-
     .basic-container.col-lg-10.mx-auto.mb-5.mb-lg-0
       img.col-lg-8(src='@/assets/curso/temas/tema3/img-1.jpg' style="max-width: 714px" alt="Imagen decorativa")
       .col-lg-4.d-flex.align-items-center
@@ -17,19 +16,13 @@
           p.fw-bold.text-end(data-aos="fade-right") (Significados.com, 2018)
           p.mb-0.text-small(data-aos="fade-right") Para este caso se llamarán productos farmacéuticos.
     Separador
-
     .titulo-segundo.color-acento-contenido
       h2 3.1 Tipos de productos farmacéuticos
-    
     p.mb-5(data-aos="fade-right") Existen diferentes tipos de productos farmacéuticos, los más generales son:
-
     SlyderB.mb-5.slider-b-edit(:datos="datosSlyder")
-
     .cajon.cajon-edit.color-secundario.col-md-6.col-lg-7.mx-auto.p-4.mb-5
       p(data-aos="fade-right") Existe otra clase de productos farmacéuticos, propios de ciertas especialidades como los medicamentos oncológicos, los biotecnológicos, las nutriciones parenterales y enterales, los preparados magistrales estériles, entre otros.
-    
     h3.mb-5.fw-bold(data-aos="fade-left") Ficha técnica de los medicamentos
-
     p.mb-5(data-aos="fade-right") Es un documento oficial que resume las características del producto y evidencia las condiciones de uso autorizadas, simplificando la información científica precisa para los profesionales de la salud, de acuerdo con los estudios que respaldan su autorización. 
       br
       br
@@ -44,12 +37,9 @@
           p.mb-0.col.ps-md-4(style="line-height: 3") El artículo 15 del decreto legislativo 1 del 2015 establece como una garantía de información, exigir para los medicamentos la ficha técnica, el prospecto y el etiquetado, los cuales deben ser previamente autorizados por la Agencia Española de Medicamentos y Productos Sanitarios. La Agencia Española de Medicamentos y Productos Sanitarios pondrá la ficha técnica a disposición de los servicios de salud de las comunidades autónomas, de los colegios u organizaciones profesionales, de los médicos, odontólogos y farmacéuticos en ejercicio y, en su caso, de los veterinarios en ejercicio.
         li(data-aos="fade-left")
           p.mb-0.col.ps-md-4(style="line-height: 3") El decreto 1345 del 2007, por el que se regula el procedimiento de autorización, registro y condiciones de dispensación de los medicamentos de uso humano fabricados industrialmente, dispone como documentación necesaria para la autorización de un medicamento, la presentación de la ficha técnica aprobada, que deberá ajustarse en su contenido  a lo previsto en el Anexo II de dicha norma.
-    
     .cajon.cajon-edit.color-secundario.col-md-6.col-lg-10.mx-auto.p-4.mb-5
       p(data-aos="fade-right") Realmente, a partir del momento que fue creada la EMEA (Agencia Europea de Medicamentos), es cuando la ficha técnica se convirtió en un documento estándar en todos los países de la UE, incorporando nuevos apartados con respecto a los establecidos en la legislación española; desde entonces, todas las modificaciones que se realicen a la ficha técnica deberán ser autorizadas por las Agencias reguladoras.
-    
     p.mb-5(data-aos="fade-right") El contenido de la ficha técnica se encuentra descrito en el anexo II - Contenido de la ficha técnica o resumen de características del producto- del real decreto 1345 del 2007, pero La EMEA “<em>A Guideline on Summary of Product Characteristics</em>” [Directrices sobre el resumen de las características del producto] establece diez ítems estandarizados en todos los países de la UE:
-
     .col-lg-10.mx-auto.tarjeta.p-4.mb-5(style="overflow: hidden; background-color: #F7F6FE")
       ul.lista-ul--color.lista-ul--separador
         li
@@ -97,8 +87,6 @@
         li.d-flex.mb-0
           img(src="@/assets/curso/temas/decorador-2.svg" style="width: 25px; height: 25px;" data-aos="fade-right")
           p.mb-0.col.ps-4(data-aos="fade-left") No es la información que se encuentra en la Guía de Prescripción Terapéutica.
-
-
     .tarjeta.p-3.col-xl-10.mx-auto.mb-5(style="background: linear-gradient(0deg, rgba(129,209,250,1) 0%, rgba(126,94,227,1) 100%);")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
@@ -113,7 +101,6 @@
                 i.fas.fa-file-download(style="color: black !important")
     h3.mb-5.fw-bold(data-aos="fade-right") Ficha técnica de los dispositivos médicos.  
     p.mb-5(data-aos="fade-right") El decreto 4725 del 2005, por el cual se reglamenta el régimen de registros sanitarios, permiso de comercialización y vigilancia sanitaria de los dispositivos médicos para uso humano, no exige la ficha técnica como documento necesario para su comercialización. Aún así, los laboratorios fabricantes, por lo general otorgan la ficha técnica de producto terminado presentada ante el INVIMA al momento de solicitar la evaluación técnica de este producto.
-
     .tarjeta.p-3.col-xl-10.mx-auto.mb-5(style="background: linear-gradient(0deg, rgba(129,209,250,1) 0%, rgba(126,94,227,1) 100%);")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
@@ -127,12 +114,9 @@
                 span(style="color: black !important") Descargar
                 i.fas.fa-file-download(style="color: black !important")
     Separador
-
     .titulo-segundo.color-acento-contenido
       h2 3.2 Sustancias peligrosas en el servicio farmacéutico
-    
     p.mb-5(data-aos="fade-right") Las sustancias o productos peligrosos son denominados así por presentar los siguientes efectos:
-
     .col-lg-10.mx-auto
       .col-lg-10.me-auto.tarjeta.p-4.mb-5(style="overflow: hidden; background-color: #F7F6FE")
         p.col-lg-7.mx-lg-auto.mb-0(data-aos="fade-right") 1. Carcinogenicidad.
@@ -145,7 +129,6 @@
           br
           |5. Genotoxicidad.
     p.mb-5(data-aos="fade-left") A nivel farmacéutico, todo el personal está expuesto en menor o mayor grado a las diferentes sustancias peligrosas que allí se manejen:
-
     PasosA.color-acento-contenido.mb-5.col-lg-10.mx-auto(tipo="l")
       .row
         .col-md-6.col-lg-8.mb-4.mb-md-0.d-flex.align-items-center.order-2.order-md-1(data-aos="fade-right")
@@ -153,23 +136,19 @@
         .col-md-6.col-lg-4.order-1.order-md-2.mb-4.mb-md-0(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/tema3/img-9.png' alt="Imagen decorativa")
-
       .row
         .col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
           figure
             img(src='@/assets/curso/temas/tema3/img-10.png' alt="Imagen decorativa")
         .col-md-6.col-lg-8.d-flex.align-items-center(data-aos="fade-left")
           p.text-start Posterior a esto, se encuentra el personal que realiza la recepción y el almacenamiento, porque en caso de un daño en el envase, son los primeros implicados.
-      
       .row
         .col-md-6.col-lg-8.mb-4.mb-md-0.d-flex.align-items-center.order-2.order-md-1(data-aos="fade-right")
           p Por último, está el personal que realiza la limpieza o la recolección de residuos, porque en ciertos momentos pueden estar limpiando derrames o recogiendo residuos o envases de sustancias peligrosas.
         .col-md-6.col-lg-4.order-1.order-md-2.mb-4.mb-md-0(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/tema3/img-11.png' alt="Imagen decorativa")
-
-    p.mb-5(data-aos="fade-right") Los productos químicos utilizados con más frecuencia en la industria farmacéutica son: 
-
+    p.mb-5(data-aos="fade-right") Los productos químicos utilizados con más frecuencia en la industria farmacéutica son:
     .col-lg-10.mx-auto.tarjeta.p-4.mb-5(style="background-color: #CFF0F9; overflow: hidden;")
       ul.lista-ul--color.col-lg-11.ms-lg-auto
         li.d-flex.mb-4
@@ -197,7 +176,6 @@
       br
       br
       |Es importante tener presente los símbolos de las sustancias, ver figura 2:
-    
     .tarjeta.p-4(style="background-color: #F1FBFC;")
       .titulo-sexto.color-acento-botones.mb-5(data-aos="fade-right")
         h5.mb-0.text-small Figura 2
@@ -208,12 +186,9 @@
     Separador 
     .titulo-segundo.color-acento-contenido
       h2 3.3 Productos fraudulentos y alterados
-    
     p.mb-5(data-aos="fade-right") El Instituto Nacional de Vigilancia de Medicamentos y Alimentos – INVIMA los define de la siguiente manera:
-
-    img.mb-5.col-lg-10.mx-auto.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img-14.svg" style="max-width: 1030px" data-aos="fade-right" alt="Imagen que muestra la definición que da el INVIMA sobre los productos fraudulentos y alterados ")
+    img.mb-0.col-lg-10.mx-auto.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img-14.svg" style="max-width: 1030px" data-aos="fade-right" alt="Imagen que muestra la definición que da el INVIMA sobre los productos fraudulentos y alterados ")
     img.mb-5.col-lg-10.mx-auto.d-flex.d-lg-none.mb-5(src="@/assets/curso/temas/tema3/img-17.svg" style="max-width: 450px" data-aos="fade-right" alt="Imagen que muestra la definición que da el INVIMA sobre los productos fraudulentos y alterados ")
-
     .d-block.d-lg-none.mb-5
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") No proviene del titular del Registro Sanitario, del laboratorio farmacéutico fabricante o del distribuidor o vendedor autorizado, de acuerdo con la reglamentación que al efecto expida el Ministerio de Salud.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") El introducido al país sin cumplir con los requisitos técnicos y legales establecidos en el decreto regulatorio.
@@ -222,11 +197,9 @@
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Elaborado por laboratorio farmacéutico que no tenga autorización para su fabricación.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") El que utiliza envase, empaque o rótulo, diferente al autorizado.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Elaborado por laboratorio farmacéutico que no tenga Licencia Sanitaria de Funcionamiento.
-
     .d-flex.flex-wrap.col-xl-10.mx-auto.mb-5
       h2.p-4.px-md-5(style="background-color: #B19EEE" data-aos="fade-right") Producto farmacéutico alterado
       p.w-100(data-aos="fade-right") Es el que se encuentra en una de las siguientes situaciones:
-    
     img.mb-5.col-lg-10.mx-auto.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/img-15.png" style="max-width: 1030px" data-aos="fade-right" alt="Imagen decorativa")
     img.mb-5.d-flex.d-lg-none.mx-auto(src="@/assets/curso/temas/tema3/img-16.png" style="max-width: 500px" data-aos="fade-right" alt="Imagen decorativa")
     .d-block.d-lg-none
@@ -236,6 +209,7 @@
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Sufrió transformaciones en sus características físico-químicas, biológicas, organolépticas, o en su valor terapéutico por causa de agentes químicos, físicos o biológicos.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Por su naturaleza, no se encuentre almacenado o conservado con las debidas precauciones.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Se le adicionaron sustancias que puedan modificar sus efectos o sus características farmacológicas, fisicoquímicas u organolépticas.
+
 </template>
 
 <script>

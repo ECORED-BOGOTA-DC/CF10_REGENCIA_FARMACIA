@@ -2,30 +2,27 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Normativa de calidad del proceso de recepción
-    
     p.mb-5(data-aos="fade-right") Esta resolución, en el capítulo II - PROCEDIMIENTOS PARA LOS PROCESOS GENERALES - numeral 3.3, reglamenta el proceso general de recepción de medicamentos y dispositivos médicos.
-
-    .tarjeta.p-3.col-xl-10.mx-auto(style="background: linear-gradient(0deg, rgba(129,209,250,1) 0%, rgba(126,94,227,1) 100%);")
+    .tarjeta.p-3.col-xl-10.mx-auto(style="background: linear-gradient(0deg, rgba(129,209,250,1) 0%, rgba(126,94,227,1) 100%);")(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/template/icono-pdf.svg" data-aos="fade-right" alt="Imagen decorativa")
+          img(src="@/assets/template/icono-pdf.svg" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0.texto-blanco(data-aos="fade")
+            .col.mb-3.mb-sm-0.texto-blanco
               h3.mb-1 PROCEDIMIENTOS PARA LOS PROCESOS GENERALES
               p Te invitamos a revisar con detenimiento la normativa del proceso de recepción de medicamentos y dispositivos médicos en la Resolución 1403 del 2007.
-            .col-sm-auto(data-aos="fade-left")
+            .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo1_Resolucion_1403_2007.pdf')" target="_blank")
                 span(style="color: black !important") Descargar
                 i.fas.fa-file-download(style="color: black !important")
     Separador
     .titulo-segundo.color-acento-contenido
       h2#t_2_1 2.1 Conceptos básicos
-    
     p.mb-5(data-aos="fade-right") El proceso de recepción de medicamentos y dispositivos médicos permanecerá bajo la responsabilidad del director técnico del servicio farmacéutico (Químico Farmacéutico o Regente de Farmacia).
       br
       |El siguiente video presenta los criterios que se deben tener presente, para el proceso de recepción.
@@ -33,43 +30,34 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/GUI1LIrWu0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5(data-aos="fade-right") Las zonas o áreas de recibo en el proceso de recepción son:
-
     .tarjeta--container.row.mb-4
       .col-md.tarjeta.color-secundario.p-5.text-white
         .row.justify-content-center.mb-4
           .col-6(data-aos="fade-right")
             figure
               img(src='@/assets/curso/temas/tema1/img-2.png' alt="Imagen decorativa")
-          
         h2.text-center Área de cuarentena I Naranja
         p(data-aos="fade-left") Es el área inicial donde se ubican los productos farmacéuticos mientras se inspeccionan. Debe contar  con mesa (que no sea de madera) o estantería y estibas que eviten que los medicamentos y dispositivos médicos tengan contacto con el suelo.
-
       .col-md.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
           .col-6(data-aos="fade-right")
             figure
               img(src='@/assets/curso/temas/tema1/img-2.png' alt="Imagen decorativa")
-          
         h2.text-center Área de inspección
         p(data-aos="fade-left") Es el área donde se inspeccionan los productos farmacéuticos que llegan, y debe contar con una mesa (que no sea de madera) de un tamaño proporcional a la cantidad de productos que se manejan, con estibas para ubicar las cajas con mucho peso, lapicero, formatos (factura y acta de recepción) y demás insumos que se consideren necesarios para garantizar un excelente procedimiento.
-
       .col-md.tarjeta.color-primario.text-white.p-5
         .row.justify-content-center.mb-4
           .col-6(data-aos="fade-right")
             figure
               img(src='@/assets/curso/temas/tema1/img-2.png' alt="Imagen decorativa")
-          
         h2.text-center Área de cuarentena II Negra
         p(data-aos="fade-left") Es el área donde se ubican los productos farmacéuticos que no cumplen con algún parámetro al realizar la recepción administrativa o técnica, mientras se decide qué procedimiento se va a llevar a cabo con ellos.
     Separador
     .titulo-segundo.color-acento-contenido
       h2#t_2_2 2.2 Métodos de verificación, especificaciones y criterios
-    
     p.mb-5 La recepción de los productos farmacéuticos debe satisfacer completamente los procedimientos administrativos y técnicos de verificación, para poder ser ingresados al sistema contable del servicio farmacéutico.
       br
       |El proceso de recepción cuenta con dos métodos de verificación importantes: la recepción administrativa y la recepción técnica. Se conocerán cada uno de estos métodos.
-
-
     .tarjeta.p-4.mb-5(style="background-color: #F7F6FE")
       .basic-container.col-lg-10.mx-auto
         .col-lg-7(data-aos="fade-right")
@@ -126,9 +114,7 @@
           figure
             img.col-xl-10.mx-auto(src='@/assets/curso/temas/tema1/img-5.jpg' style="max-width: 438px" alt="Imagen de una factura.")
             figcaption Factura
-    
     p.fw-bold Recepción técnica
-
     .basic-container.mb-5
       .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
         p Una vez aprobado el pedido desde la recepción administrativa, se procede a realizar la recepción técnica por parte del director técnico o la personas que él delegue. En este punto, se procede a realizar la inspección de los productos farmacéuticos recibidos; en el caso de establecimientos minoristas como Droguerías, Farmacias – Droguerías y Servicios Farmacéuticos, esta debe realizarse a cada uno de los productos y, para establecimientos mayoristas como Laboratorios Fabricantes, Depósitos y Agencias de Especialidades, se permite realizar la inspección aplicando muestreo.
@@ -139,7 +125,6 @@
           br
           |En el acto preciso de la recepción de los medicamentos y dispositivos médicos, se deben revisar los siguientes parámetros: 
       img.order-1.order-lg-2.col-lg-3.mb-4.mb-lg-auto.m-auto(src='@/assets/curso/temas/tema1/img-6.png' style="max-width: 295px" data-aos="fade-left" alt="Imagen decorativa")
-
     .tarjeta.col-lg-10.mx-auto.p-4.mb-5(style="background-color: #CFF0F9")
       ul.lista-ul--color.mb-0
         li.d-flex
@@ -181,13 +166,10 @@
         li.d-flex
           img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
           p.mb-0.ps-3(data-aos="fade-left") Determinar el control de “pasa, no pasa” teniendo presente los niveles de calidad definidos por la empresa.
-    
     p.mb-5(data-aos="fade-right") A continuación, en la tabla 1, se presenta el análisis organoléptico para medicamentos:
-
     .titulo-sexto.color-acento-botones(data-aos="fade-right")
       h5.mb-0.text-small Tabla 1
       p.mb-0.text-small <em>Análisis organoléptico para medicamentos</em>
-    
     .tabla-b.color-acento-contenido.mb-5
       table
         caption Nota. UNAB (s.f.).
@@ -223,13 +205,10 @@
           tr
             td.col-3.fw-bold(data-aos="fade-right") Cremas y ungüentos
             td(data-aos="fade-left") Que los tubos no estén colapsados ni con perforaciones o rupturas, que el cierre se encuentre hermético.
-    
     .background-offset.mb-5(style="background-color: #F0EDFC")
       p.mb-4.fw-bold(data-aos="fade-left") Devolución de medicamentos
-      p.mb-4(data-aos="fade-right") Las devoluciones de productos farmacéuticos deben contar con un área específica (área de cuarentena II Negra), retirada del área de almacenamiento o dispensación, y estos productos no pueden ser distribuidos. 
-
+      p.mb-4(data-aos="fade-right") Las devoluciones de productos farmacéuticos deben contar con un área específica (área de cuarentena II Negra), retirada del área de almacenamiento o dispensación, y estos productos no pueden ser distribuidos.
       p.mb-5(data-aos="fade-right") Durante el proceso de recepción administrativa y técnica, se pueden generar devoluciones de medicamentos por diferentes razones:
-
       .basic-container
         .col-12.col-md-8.col-xl-4.d-flex.align-items-center
           .conatiner-offset-1.bloque-texto-b(style="background-color: white")
@@ -250,7 +229,6 @@
                 img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
                 p.mb-0.ps-3(data-aos="fade-left") Otras razones por las cuales pueden existir devoluciones se presentan por parte de los clientes, y para ello se deben analizar el caso y las condiciones internas de devolución, por parte de la empresa.
         img.col-xl-8.my-auto.ms-auto(src="@/assets/curso/temas/tema1/img-7.jpg" style="max-width: 870px" data-aos="fade" alt="Imagen decorativa")
-    
     .basic-container.p-4.px-lg-5.col-lg-10.mx-auto(style="background: linear-gradient(90deg, rgba(232,232,232,1) 0%, rgba(232,232,232,1) 50%, rgba(140,188,250,1) 50%);")
       p.mb-5.mb-xl-0.col-xl-3.fw-bold(data-aos="fade-right") De acuerdo con la Resolución 1403 del 2007: 
         br
@@ -270,6 +248,7 @@
           li.d-flex
             img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
             p.mb-0.ps-3(data-aos="fade-left") Han sido examinados y evaluados por el director del establecimiento o servicio farmacéutico, para autorizar su devolución. Esta evaluación debe tener en cuenta la naturaleza del producto, condiciones especiales de almacenamiento y el tiempo transcurrido desde su despacho. En caso necesario, debe solicitarse concepto al titular del registro sanitario o persona calificada de la casa fabricante. En caso de comprobar el no cumplimiento de las especificaciones técnicas de calidad, el servicio farmacéutico o establecimiento farmacéutico deberá comunicarlo en primera instancia a las autoridades sanitarias competentes, de acuerdo con la legislación vigente.
+
 </template>
 
 <script>

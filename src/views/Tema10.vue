@@ -2,11 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 10
       h1 Manual de Gestión de Procesos y Procedimientos de los Servicios Farmacéuticos
-
     .basic-container.col-xl-10.mx-auto.mb-5
       img.col-lg-8.mb-auto(src='@/assets/curso/temas/tema9/img-2.jpg' style="max-width: 714px" data-aos="fade" alt="Imagen decorativa")
       .col-lg-4.d-flex.align-items-center
@@ -15,9 +14,8 @@
             br
             br
             |En ese sentido, el servicio farmacéutico tiene la responsabilidad de implementar o ajustar el manual de procesos y procedimientos que permita su perfecto desempeño sin que se vea afectado por la rotación del recurso humano.
-    p.mb-4(data-aos="fade-right") El manual debe contar como mínimo con la siguiente información:
-
-    .col-lg-8.tarjeta.p-4.mb-5(style="background-color: #F7F6FE; overflow: hidden;")
+    p.mb-4.pt-4.pt-lg-0(data-aos="fade-right") El manual debe contar como mínimo con la siguiente información:
+    .col-lg-8.tarjeta.p-4(style="background-color: #F7F6FE; overflow: hidden;")
       ul.lista-ul--color.mb-0
         li.d-flex.mb-0
           img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
@@ -37,6 +35,7 @@
         li.d-flex.mb-0
           img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
           p.mb-0.ps-3.ps-md-5(data-aos="fade-left") Referencias bibliográficas de ser necesario.
+
 </template>
 
 <script>

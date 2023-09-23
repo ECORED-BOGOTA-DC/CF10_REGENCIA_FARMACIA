@@ -27,7 +27,7 @@
     p.mb-5 El siguiente video presenta los criterios que se deben tener presente, para el proceso de recepción.
     figure.mb-5(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/GUI1LIrWu0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/GUI1LIrWu0s?si=V4U7L7eGmZVG9DD3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5(data-aos="fade-right") Las zonas o áreas de recibo en el proceso de recepción son:
     .tarjeta--container.row.mb-4
       .col-md.tarjeta.color-secundario.p-5.text-white

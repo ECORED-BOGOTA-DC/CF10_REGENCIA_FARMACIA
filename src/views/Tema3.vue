@@ -101,7 +101,7 @@
                 i.fas.fa-file-download(style="color: black !important")
     h3.mb-5.fw-bold(data-aos="fade-right") Ficha técnica de los dispositivos médicos.  
     p.mb-5(data-aos="fade-right") El decreto 4725 del 2005, por el cual se reglamenta el régimen de registros sanitarios, permiso de comercialización y vigilancia sanitaria de los dispositivos médicos para uso humano, no exige la ficha técnica como documento necesario para su comercialización. Aún así, los laboratorios fabricantes, por lo general otorgan la ficha técnica de producto terminado presentada ante el INVIMA al momento de solicitar la evaluación técnica de este producto.
-    .tarjeta.p-3.col-xl-10.mx-auto.mb-5(style="background: linear-gradient(0deg, rgba(129,209,250,1) 0%, rgba(126,94,227,1) 100%);")
+    .tarjeta.p-3.col-xl-10.mx-auto(style="background: linear-gradient(0deg, rgba(129,209,250,1) 0%, rgba(126,94,227,1) 100%);")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema3/decorador-3.svg" data-aos="fade-right" alt="Imagen decorativa")
@@ -178,8 +178,7 @@
       |Es importante tener presente los símbolos de las sustancias, ver figura 2:
     .tarjeta.p-4(style="background-color: #F1FBFC;")
       .titulo-sexto.color-acento-botones.mb-5(data-aos="fade-right")
-        h5.mb-0.text-small Figura 2
-        p.mb-0.text-small Símbolos de sustancias
+        p.mb-0 #[b Figura 2]. Símbolos de sustancias
       .d-flex.flex-wrap.align-items-start(data-aos="fade-left")
         img.col-12.col-lg-6.mx-auto.mb-4.mb-lg-0(src="@/assets/curso/temas/tema3/img-12.svg" style="max-width: 500px" alt="Imagen que muestra los símbolos de las sustancias químicas.")
         img.col-12.col-lg-6.mx-auto(src="@/assets/curso/temas/tema3/img-13.svg" style="max-width: 500px" alt="Imagen que muestra los símbolos de las sustancias químicas.")
@@ -193,7 +192,7 @@
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") No proviene del titular del Registro Sanitario, del laboratorio farmacéutico fabricante o del distribuidor o vendedor autorizado, de acuerdo con la reglamentación que al efecto expida el Ministerio de Salud.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") El introducido al país sin cumplir con los requisitos técnicos y legales establecidos en el decreto regulatorio.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Cuando no esté amparado con Registro Sanitario.
-      p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") El contenido no corresponda al autorizado, o se hubiere sustraído del original total o parcialmente.
+      p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Aquel cuyo contenido no corresponda con el autorizado.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Elaborado por laboratorio farmacéutico que no tenga autorización para su fabricación.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") El que utiliza envase, empaque o rótulo, diferente al autorizado.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Elaborado por laboratorio farmacéutico que no tenga Licencia Sanitaria de Funcionamiento.
@@ -205,7 +204,7 @@
     .d-block.d-lg-none
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Se le hubiere sustituido, sustraído total o parcialmente o reemplazado, los elementos constitutivos que forman parte de la composición oficialmente aprobada.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Se encuentre vencida la fecha de expiración correspondiente a la vida útil del producto.
-      p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") El contenido no corresponda al autorizado, o se hubiere sustraído del original total o parcialmente.
+      p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Aquel cuyo contenido no corresponda con el autorizado.|
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Sufrió transformaciones en sus características físico-químicas, biológicas, organolépticas, o en su valor terapéutico por causa de agentes químicos, físicos o biológicos.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Por su naturaleza, no se encuentre almacenado o conservado con las debidas precauciones.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Se le adicionaron sustancias que puedan modificar sus efectos o sus características farmacológicas, fisicoquímicas u organolépticas.

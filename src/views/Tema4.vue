@@ -13,7 +13,7 @@
         br
         |El valor de una mercancía inicia en su producción, la cual conlleva un costo o un trabajo que se evidencia en su circulación. 
       img.d-none.d-lg-flex.my-auto.py-5.col-lg-4(src="@/assets/curso/temas/tema4/img-2.jpg" style="max-width: 323px" alt="Imagen decorativa")
-    .col-lg-10.mx-auto.tarjeta.p-4.mb-5(style="background-color: #F7F6FE; overflow: hidden;")
+    .col-lg-10.mx-auto.tarjeta.p-4(style="background-color: #F7F6FE; overflow: hidden;")
       p(data-aos="fade-right") Carl Marx el padre del marxismo y materialismo histórico, propone algunos modelos que son:
       ul.lista-ul--color
         li.d-flex.mb-4

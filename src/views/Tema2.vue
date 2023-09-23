@@ -23,9 +23,8 @@
     Separador
     .titulo-segundo.color-acento-contenido
       h2#t_2_1 2.1 Conceptos básicos
-    p.mb-5(data-aos="fade-right") El proceso de recepción de medicamentos y dispositivos médicos permanecerá bajo la responsabilidad del director técnico del servicio farmacéutico (Químico Farmacéutico o Regente de Farmacia).
-      br
-      |El siguiente video presenta los criterios que se deben tener presente, para el proceso de recepción.
+    p(data-aos="fade-right") El proceso de recepción de medicamentos y dispositivos médicos permanecerá bajo la responsabilidad del director técnico del servicio farmacéutico (Químico Farmacéutico o Regente de Farmacia).
+    p.mb-5 El siguiente video presenta los criterios que se deben tener presente, para el proceso de recepción.
     figure.mb-5(data-aos="fade-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/GUI1LIrWu0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -102,7 +101,7 @@
             p.mb-0.ps-2(data-aos="fade-left") Fecha y hora de entrega.
           li.d-flex
             img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
-            p.mb-0.ps-2(data-aos="fade-left") Cantidad pedida = cantidad recibida = cantidad facturada.
+            p.mb-0.ps-2(data-aos="fade-left") Que la cantidad pedida sea igual a la cantidad recibida y a la cantidad facturada.
     p.mb-5 A continuación, se puede observar las características de una orden de compra y de una factura:
     .tarjeta.p-4.p-lg-5.mb-5(style="background-color: #F9FCFF")
       SlyderA(tipo="b")

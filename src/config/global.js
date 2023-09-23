@@ -151,7 +151,7 @@ export default {
         icono: 'far fa-file-alt',
         numero: '10',
         titulo:
-          'Manual de Gestión de Procesos y Procedimientos de los Servicios Farmacéuticos',
+          'Manual de gestión de procesos y procedimientos de los servicios farmacéuticos',
         desarrolloContenidos: true,
       },
     ],
@@ -382,7 +382,7 @@ export default {
         {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo:
-            'Diseñadora Instruccional - Revisora Metodológica y Pedagógica',
+            'Diseñadora instruccional - Revisora metodológica y pedagógica',
           centro:
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
@@ -394,13 +394,13 @@ export default {
         },
         {
           nombre: 'Jhon Jairo Rodríguez Pérez',
-          cargo: 'Diseñador y evaluador instrucciona',
+          cargo: 'Diseñador y evaluador instruccional',
           centro:
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Gloria Amparo López Escudero',
-          cargo: 'Adecuación instruccional',
+          cargo: 'Adecuación instruccional - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -417,13 +417,13 @@ export default {
       autores: [
         {
           nombre: 'Adriana Marcela Suarez Eljure ',
-          cargo: 'Diseñador web',
+          cargo: 'Diseño web - 2023',
           centro:
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Jhon Edinson Castañeda Oviedo',
-          cargo: 'Desarrollo fullstack',
+          cargo: 'Desarrollo fullstack - 2023',
           centro:
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },

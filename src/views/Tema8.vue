@@ -44,7 +44,7 @@
             li.d-flex.mb-0
               img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
               p.mb-0.ps-3.ps-md-5(data-aos="fade-left") Minimiza los errores de costos y precios.
-    p.mb-5(data-aos="fade-right") En Colombia, el Instituto Colombiano de Codificación y Automatización Comercial (IAC) es la entidad encargada de otorgar el código de barras de los productos, aunque también existen otros como el EAN que es el Europeo, como ejemplo se puede ver la figura 3.
+    p.mb-5(data-aos="fade-right") En Colombia, el Instituto Colombiano de Codificación y Automatización Comercial (IAC) es la entidad encargada de otorgar el código de barras de los productos, aunque también existen otros como el EAN que es el Europeo, como ejemplo se puede ver la figura 4.
       br
       br
       |Existen dos códigos de barras, uno de 13 cifras que es el más común y otro de 8 cifras que se utiliza cuando el espacio para la impresión es muy corto. Estos se leen de la siguiente manera:
@@ -65,8 +65,7 @@
     .tarjeta.p-4(style="background-color: #F1FBFC; overflow: hidden;")
       .tarjeta(style="background-color: #F1FBFC;")
         .titulo-sexto.color-acento-botones.mb-5(data-aos="fade-right")
-          h5.mb-0.text-small Figura 4
-          p.mb-0.text-small Cómo se lee un código de barras
+          p.mb-0 #[b Figura 4]. Cómo se lee un código de barras
       img.mx-auto.mb-auto(src='@/assets/curso/temas/tema8/img-2.svg' style="max-width: 540px" data-aos="fade-left" alt="Muestra la manera de leer un código de barras y que fue explicado en el párrafo antes de la imagen.")
 
 </template>

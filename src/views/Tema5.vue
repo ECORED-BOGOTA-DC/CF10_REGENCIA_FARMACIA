@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 5
       h1 Cargas de mercancía
-    p(data-aos="fade-right") Se refiere al conjunto de mercancías que pueden estar cubiertas (embaladas) o descubiertas (sin embalaje), dispuestas para su traslado desde un punto a otro, y sometidas a diferentes operaciones, con el propósito de lograr tal fin sin que se afecten sus características.
+    p.mb-0(data-aos="fade-right") Se refiere al conjunto de mercancías que pueden estar cubiertas (embaladas) o descubiertas (sin embalaje), dispuestas para su traslado desde un punto a otro, y sometidas a diferentes operaciones, con el propósito de lograr tal fin sin que se afecten sus características.
     Separador
     .titulo-segundo.color-acento-contenido
       h2 5.1 Tipos de carga
@@ -31,7 +31,7 @@
         li.d-flex.mb-4
           img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
           p.mb-0.ps-2(data-aos="fade-left") Vehículos, contenedores, embalaje y etiquetado especiales, para el transporte de productos farmacéuticos, que garanticen la conservación de la temperatura de la carga.
-    .cajon.cajon-edit.color-secundario.col-md-6.col-lg-7.mx-auto.p-4.mb-5(data-aos="fade-right")
+    .cajon.cajon-edit.color-secundario.col-md-6.col-lg-7.mx-auto.p-4(data-aos="fade-right")
       p.mb-0 La carga de productos farmacéuticos requiere de mayor cuidado porque constantemente se ve expuesta a robos; en mayor grado, las sustancias controladas o de alto costo, debido a que pueden ser muy bien pagas en el mercado negro. Los robos de carga de productos farmacéuticos son la situación que afecta la cadena de suministro con más frecuencia y la causa más común del aumento de productos fraudulentos y adulterados.
     Separador
     .titulo-segundo.color-acento-contenido
@@ -40,8 +40,7 @@
     .tarjeta.p-4(style="background-color: #F1FBFC; overflow: hidden;")(data-aos="fade-right")
       .tarjeta(style="background-color: #F1FBFC;")
         .titulo-sexto.color-acento-botones.mb-5
-          h5.mb-0.text-small Figura 3
-          p.mb-0.text-small Símbolos y leyendas del etiquetado de los medicamentos
+          p.mb-0 #[b Figura 3]. Símbolos y leyendas del etiquetado de los medicamentos
       img.mx-auto.mb-auto(src='@/assets/curso/temas/tema5/img-1.jpg' style="max-width: 1030px" data-aos="fade-left" alt="Muestra los diferentes símbolos que se utilizan para el etiquetado de los medicamentos.")
 
 </template>

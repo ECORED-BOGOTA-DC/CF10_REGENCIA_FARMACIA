@@ -10,12 +10,14 @@
       img.col-lg-8(src='@/assets/curso/temas/tema3/img-1.jpg' style="max-width: 714px" alt="Imagen decorativa")
       .col-lg-4.d-flex.align-items-center
         .conatiner-offset-2.bloque-texto-b.px-xl-4
-          .bloque-texto-b__texto.justify-content-center.d-flex.mb-3
-            i.fas.fa-quote-right
-          p.mb-3.w-100(data-aos="fade-left") La palabra producto se deriva del latín <em>productus</em> y tiene diferentes significados según el área en la cual se emplee. Los productos son todas aquellas cosas, objetos u artefactos fabricados en industrias y empresas, mediante un proceso, para el consumo o uso de las personas. El producto está identificado con un nombre que puede ser reconocido por cualquier individuo.
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left.me-1(style="color: #00BCD4 !important ;font-size:20px !important")
+            p.mb-3.w-100(data-aos="fade-left") La palabra producto se deriva del latín <em>productus</em> y tiene diferentes significados según el área en la cual se emplee. Los productos son todas aquellas cosas, objetos u artefactos fabricados en industrias y empresas, mediante un proceso, para el consumo o uso de las personas. El producto está identificado con un nombre que puede ser reconocido por cualquier individuo.
+            i.fas.fa-quote-right.ms-1(style="color: #00BCD4 !important ;font-size:20px !important")
           p.fw-bold.text-end(data-aos="fade-right") (Significados.com, 2018)
           p.mb-0.text-small(data-aos="fade-right") Para este caso se llamarán productos farmacéuticos.
     Separador
+    #t_3_1
     .titulo-segundo.color-acento-contenido
       h2 3.1 Tipos de productos farmacéuticos
     p.mb-5(data-aos="fade-right") Existen diferentes tipos de productos farmacéuticos, los más generales son:
@@ -30,7 +32,6 @@
       br
       br
       |La normativa que rige la ficha técnica de los medicamentos, es la siguiente:
-    
     .col-lg-10.mx-auto.tarjeta.p-4.mb-5(style="overflow: hidden; background-color: #F7F6FE")
       ul.lista-ul--color.lista-ul--separador
         li(data-aos="fade-right")
@@ -69,7 +70,6 @@
         li
           p.mb-0.col.ps-4(data-aos="fade-right") 12. Instrucciones para la preparación.
     p.mb-5 Partiendo de la información anteriormente documentada, se debe tener claro qué NO es una ficha técnica:
-
     .col-lg-10.mx-auto.tarjeta.p-4.py-lg-5.mb-5(style="overflow: hidden; background-color: #F7F6FE")
       ul.lista-ul--color.lista-ul--separador.mb-0.col-lg-10.mx-auto
         li.d-flex
@@ -94,7 +94,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco(data-aos="fade")
-              p.fw-bold.mb-1 Te invitamos a analizar un ejemplo de una ficha técnica de un medicamento.
+              p.fw-bold.mb-1 Te invitamos a analizar un ejemplo de dos fichas técnicas de dispositivos médicos y producto terminado.
             .col-sm-auto(data-aos="fade-left")
               a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo2_Ficha_Tecnica_Medicamento.pdf')" target="_blank")
                 span(style="color: black !important") Descargar
@@ -114,6 +114,7 @@
                 span(style="color: black !important") Descargar
                 i.fas.fa-file-download(style="color: black !important")
     Separador
+    #t_3_2
     .titulo-segundo.color-acento-contenido
       h2 3.2 Sustancias peligrosas en el servicio farmacéutico
     p.mb-5(data-aos="fade-right") Las sustancias o productos peligrosos son denominados así por presentar los siguientes efectos:
@@ -183,6 +184,7 @@
         img.col-12.col-lg-6.mx-auto.mb-4.mb-lg-0(src="@/assets/curso/temas/tema3/img-12.svg" style="max-width: 500px" alt="Imagen que muestra los símbolos de las sustancias químicas.")
         img.col-12.col-lg-6.mx-auto(src="@/assets/curso/temas/tema3/img-13.svg" style="max-width: 500px" alt="Imagen que muestra los símbolos de las sustancias químicas.")
     Separador 
+    #t_3_3
     .titulo-segundo.color-acento-contenido
       h2 3.3 Productos fraudulentos y alterados
     p.mb-5(data-aos="fade-right") El Instituto Nacional de Vigilancia de Medicamentos y Alimentos – INVIMA los define de la siguiente manera:

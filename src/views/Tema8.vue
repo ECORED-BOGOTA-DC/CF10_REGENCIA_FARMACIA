@@ -11,13 +11,13 @@
       .col-lg-8.ps-lg-3
         .bloque-texto-b.color-acento-contenido.p-4.mb-5
           .bloque-texto-b__texto
-            i.fas.fa-quote-left
-            p.mb-0(data-aos="fade-left") “Es una identificación única de carácter numérico, representada por una combinación de líneas que permite reconocer rápidamente un artículo de forma única, global y no ambigua, en un punto de la cadena logística, y así poder realizar inventario o consultar sus características asociadas”
+            i.fas.fa-quote-left.me-1(style="color: #00BCD4 !important ;font-size:20px !important")
+            p.mb-0(data-aos="fade-left") Es una identificación única de carácter numérico, representada por una combinación de líneas que permite reconocer rápidamente un artículo de forma única, global y no ambigua, en un punto de la cadena logística, y así poder realizar inventario o consultar sus características asociadas.
+            i.fas.fa-quote-right.ms-1(style="color: #00BCD4 !important ;font-size:20px !important")
               br
               br
             .d-flex.justify-content-end.align-items-center
               p.fw-bold.mb-0.ms.auto (Semana, 2014).
-              i.fas.fa-quote-right
         p.mb-5(data-aos="fade-left") Son usados para identificar los productos durante el almacenamiento y la distribución, además como medio de control de errores al registrar ventas y como método optimo de control de inventarios. 
           br
           |El código de barras aporta los siguientes beneficios:

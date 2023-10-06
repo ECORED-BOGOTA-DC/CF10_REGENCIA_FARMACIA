@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Normatividad del proceso de recepción de productos farmacéuticos',
     descripcionCurso:
-      'En este componente formativo se abordan los conocimientos de la competencia recibir mercancía según los procedimientos técnicos, referentes a la normatividad legal vigente del del proceso general de recepción de productos farmacéuticos, regido por la Resolución 1403 del 2007, con el fin que los aprendices se enfoquen en identificar la importancia de dicho proceso en la cadena de abastecimiento dentro del servicio farmacéutico.',
+      'En este componente formativo se abordan los conocimientos de la competencia recibir mercancía según los procedimientos técnicos, referentes a la normatividad legal vigente del proceso general de recepción de productos farmacéuticos, regido por la Resolución 1403 del 2007, con el fin que los aprendices se enfoquen en identificar la importancia de dicho proceso en la cadena de abastecimiento dentro del servicio farmacéutico.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [],
@@ -204,7 +204,7 @@ export default {
     {
       tema: 'Embalajes',
       referencia:
-        'Prieto, A. (2020). <em>Tipos de carga, envase, embalaje, etiquetado-logística interna</em> [Video]. YouTube.',
+        'Prieto, A. (2020). <em>Tipos de carga, envase, embalaje, etiquetado-logística interna</em>.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=b3xWXgVw5cI&list=TLPQMTUwNzIwMjFftm1Z5QToSQ&index=2&ab_channel=Andr%C3%A9sPrieto',
@@ -212,9 +212,8 @@ export default {
     {
       tema: 'Embalajes',
       referencia: 'Acavir. (2021). <em>Carga.</em>',
-      tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=b3xWXgVw5cI&list=TLPQMTUwNzIwMjFftm1Z5QToSQ&index=1&ab_channel=Andr%C3%A9sPrieto',
+      tipo: 'Página web',
+      link: 'https://www.acavir.com/comercio-exterior/carga/',
     },
   ],
   glosario: [
@@ -310,13 +309,13 @@ export default {
   referencias: [
     {
       referencia:
-        'Airpharm. (2020). <em>¿Qué es la consolidación de carga y cómo se realiza?</em>',
+        'Airpharm. (2020). <em>¿Qué es la consolidación de carga y cómo se realiza?</em> ',
       link:
         'https://www.airpharmlogistics.com/que-es-la-consolidacion-de-carga-y-como-se-realiza/',
     },
     {
       referencia:
-        'Capitalcolombia.com. (s.f.). <em>¿Qué es el código de barras?</em>',
+        'Capitalcolombia.com. (s.f.). <em>¿Qué es el código de barras?</em> ',
       link:
         'https://www.capitalcolombia.com/articulo/informacion_que_es_codigo_de_barras',
     },
@@ -327,31 +326,30 @@ export default {
     },
     {
       referencia:
-        'Real Decreto Legislativo 1/2015. [Ministerio de Sanidad, Servicios Sociales e Igualdad]. Por el que se aprueba el texto refundido de la Ley de garantías y uso racional de los medicamentos y productos sanitarios. 24 de julio 2015.',
+        'Real Decreto Legislativo 1/2015. [Ministerio de Sanidad, Servicios Sociales e Igualdad]. Por el que se aprueba el texto refundido de la Ley de garantías y uso racional de los medicamentos y productos sanitarios. 24 de julio 2015. ',
       link: 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-8343#ddunica',
     },
     {
       referencia:
-        'Sánchez y Arroyo. (2007). <em>¿Consultamos la ficha técnica de los medicamentos?</em> Boletín Farmacoterapéutico de Castilla la Mancha. Vol. VIII, N 5.',
+        'Sánchez y Arroyo. (2007). <em>¿Consultamos la ficha técnica de los medicamentos?</em> Boletín Farmacoterapéutico de Castilla la Mancha. Vol. VIII, N 5. ',
       link:
         'https://sanidad.castillalamancha.es/sites/sescam.castillalamancha.es/files/documentos/farmacia/viii_05_utilidadfichatecnica.pdf',
     },
     {
       referencia:
-        'Semana.com. (2014). <em>10 beneficios del código de barras.</em> Sesión Dinero.',
+        'Semana.com. (2014). <em>10 beneficios del código de barras.</em> Sesión Dinero. ',
       link:
         'https://www.semana.com/empresas/articulo/para-que-sirve-codigo-barras/202025/',
     },
     {
       referencia:
-        'Significados.com. (03 de marzo del 2018). <em>Qué es producto.</em>',
+        'Significados.com. (03 de marzo del 2018). <em>Qué es producto.</em> ',
       link: 'https://www.significados.com/producto/',
     },
     {
       referencia:
-        'UNAB (s.f.). <em>Unidad 4. Recepción y almacenamiento de medicamentos y dispositivos médicos.</em>',
-      link:
-        'http://unab.edupol.com.co/pluginfile.php/7207/mod_resource/content/1/UNIDAD_4%20Recepci%C3%B3n%20y%20almacenamiento%20de%20medicamentos%20y%20dispositivos%20m%C3%A9dicos.pdf',
+        'UNAB (s.f.). <em>Unidad 4. Recepción y almacenamiento de medicamentos y dispositivos médicos.</em> ',
+      link: 'https://www.calameo.com/read/006084406f2956a9386f6',
     },
   ],
   creditos: [
@@ -417,7 +415,7 @@ export default {
       autores: [
         {
           nombre: 'Adriana Marcela Suarez Eljure ',
-          cargo: 'Diseño web - 2023',
+          cargo: 'Diseño web',
           centro:
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },

@@ -116,7 +116,7 @@
     p.fw-bold Recepción técnica
     .basic-container.mb-5
       .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
-        p Una vez aprobado el pedido desde la recepción administrativa, se procede a realizar la recepción técnica por parte del director técnico o la personas que él delegue. En este punto, se procede a realizar la inspección de los productos farmacéuticos recibidos; en el caso de establecimientos minoristas como Droguerías, Farmacias – Droguerías y Servicios Farmacéuticos, esta debe realizarse a cada uno de los productos y, para establecimientos mayoristas como Laboratorios Fabricantes, Depósitos y Agencias de Especialidades, se permite realizar la inspección aplicando muestreo.
+        p Una vez aprobado el pedido desde la recepción administrativa, se procede a realizar la recepción técnica por parte del director técnico o la persona que él delegue. En este punto, se procede a realizar la inspección de los productos farmacéuticos recibidos; en el caso de establecimientos minoristas como Droguerías, Farmacias – Droguerías y Servicios Farmacéuticos, esta debe realizarse a cada uno de los productos y, para establecimientos mayoristas como Laboratorios Fabricantes, Depósitos y Agencias de Especialidades, se permite realizar la inspección aplicando muestreo.
           br
           br
           |Un aspecto importante a tener presente a la hora de realizar la recepción, es contar con la ficha técnica del producto, porque en ella se encontrarán todas sus especificaciones, su vida útil, condiciones de almacenamiento y toda la información otorgada por el proveedor, en el momento de la negociación.

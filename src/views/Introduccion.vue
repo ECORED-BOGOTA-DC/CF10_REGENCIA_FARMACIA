@@ -11,9 +11,10 @@
     .basic-container.mb-5
       .col-12.col-md-8.col-xl-4.d-flex.align-items-center(data-aos="fade-right")
         .conatiner-offset-1.bloque-texto-b
-          .bloque-texto-b__texto.justify-content-center.d-flex.mb-3
-            i.fas.fa-quote-right
-          p.mb-0.w-100 “El servicio de atención en salud, responsable de las actividades, procedimientos e intervenciones de carácter técnico, científico y administrativo, relacionados con los medicamentos y los dispositivos médicos utilizados en la promoción de la salud y la prevención, diagnóstico, tratamiento y rehabilitación de la enfermedad, con el fin de contribuir en forma armónica e integral al mejoramiento de la calidad de vida individual y colectiva”.
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left.me-1(style="color: #00BCD4 !important ;font-size:20px !important")
+            p.mb-0 El servicio de atención en salud, responsable de las actividades, procedimientos e intervenciones de carácter técnico, científico y administrativo, relacionados con los medicamentos y los dispositivos médicos utilizados en la promoción de la salud y la prevención, diagnóstico, tratamiento y rehabilitación de la enfermedad, con el fin de contribuir en forma armónica e integral al mejoramiento de la calidad de vida individual y colectiva.
+            i.fas.fa-quote-right.ms-1(style="color: #00BCD4 !important ;font-size:20px !important")
       img.col-xl-8.my-auto.ms-auto(src="@/assets/curso/temas/img-1.jpg" style="max-width: 820px" alt="Imagen decorativa")
     
     p.mb-5(data-aos="fade-right") Se hace necesario contar con procesos que garanticen la calidad de estos medicamentos y dispositivos médicos y, así mismo, brinden tranquilidad al momento de su dispensación a los usuarios. 

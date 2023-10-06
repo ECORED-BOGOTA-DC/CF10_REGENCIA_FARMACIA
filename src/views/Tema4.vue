@@ -26,6 +26,7 @@
           img.mb-auto.pt-1(src='@/assets/curso/temas/decorador-1.svg' style="max-width: 14px" data-aos="fade-right")
           p.mb-0.ps-2(data-aos="fade-left") <b>Comprar para vender:</b> consiste en comprar una mercancía a un costo más bajo para venderla a un costo más alto.
     Separador
+    #t_4_1
     .titulo-segundo.color-acento-contenido
       h2 4.1 Tipos de mercancía
     p.mb-5(data-aos="fade-right") Según su orden, los tipos de mercancía (sustancias, materiales, minerales naturales o artificiales) que existen, son los siguientes:
@@ -36,6 +37,7 @@
       h4.mb-5 Tipos de mercancía según naturaleza
       LineaTiempoB.linea-tiempo-edit(:datos="datosLineaTiempoB2")
     Separador
+    #t_4_2
     .titulo-segundo.color-acento-contenido
       h2 4.2 Consolidación y desconsolidación
     .d-flex.flex-wrap.col-xl-9.offset-xl-1

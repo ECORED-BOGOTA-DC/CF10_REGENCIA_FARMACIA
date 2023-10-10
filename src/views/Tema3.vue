@@ -94,7 +94,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco(data-aos="fade")
-              p.fw-bold.mb-1 Te invitamos a analizar un ejemplo de dos fichas técnicas de dispositivos médicos y producto terminado.
+              p.fw-bold.mb-1 Te invitamos a analizar un ejemplo de una ficha técnica de un medicamento.
             .col-sm-auto(data-aos="fade-left")
               a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo2_Ficha_Tecnica_Medicamento.pdf')" target="_blank")
                 span(style="color: black !important") Descargar
@@ -108,7 +108,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco(data-aos="fade")
-              p.fw-bold.mb-1 Te invitamos a analizar un ejemplo de dos fichas técnicas de dispositivos médicos.
+              p.fw-bold.mb-1 Te invitamos a analizar un ejemplo de dos fichas técnicas de dispositivos médicos y producto terminado.
             .col-sm-auto(data-aos="fade-left")
               a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo3_Ficha_Tecnica_DispMed.pdf')" target="_blank")
                 span(style="color: black !important") Descargar
@@ -206,7 +206,7 @@
     .d-block.d-lg-none
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Se le hubiere sustituido, sustraído total o parcialmente o reemplazado, los elementos constitutivos que forman parte de la composición oficialmente aprobada.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Se encuentre vencida la fecha de expiración correspondiente a la vida útil del producto.
-      p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Aquel cuyo contenido no corresponda con el autorizado.|
+      p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") El contenido no corresponda al autorizado, o se hubiere sustraído del original total o parcialmente.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Sufrió transformaciones en sus características físico-químicas, biológicas, organolépticas, o en su valor terapéutico por causa de agentes químicos, físicos o biológicos.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Por su naturaleza, no se encuentre almacenado o conservado con las debidas precauciones.
       p.mb-4.p-3(style="border: 3px dashed #B19EEE" data-aos="fade-right") Se le adicionaron sustancias que puedan modificar sus efectos o sus características farmacológicas, fisicoquímicas u organolépticas.
